@@ -119,7 +119,6 @@ class MaritimeJobWidget {
         const lines = csvText.split('\n');
         const data = {
             summary: {},
-            locations: [],
             jobTitles: [],
             companies: [],
             lastUpdated: null
@@ -127,9 +126,12 @@ class MaritimeJobWidget {
 
         // Parse the CSV data based on MaritimeReport structure
         let currentSection = null;
+        let rowNumber = 0;
         
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i].trim();
+            rowNumber = i + 1; // CSV rows are 1-indexed
+            
             if (!line) continue;
 
             const cells = this.parseCSVLine(line);
@@ -138,17 +140,11 @@ class MaritimeJobWidget {
             if (line.includes('MARITIME JOB MARKET SUMMARY')) {
                 currentSection = 'summary';
                 continue;
-            } else if (line.includes('JOB DISTRIBUTION BY LOCATION')) {
-                currentSection = 'locations';
-                i++; // Skip header row
-                continue;
-            } else if (line.includes('TOP SKILLS')) {
-                currentSection = 'skills';
-                i++; // Skip header row
+            } else if (line.includes('JOB CATEGORIES ANALYSIS')) {
+                currentSection = 'jobTitles';
                 continue;
             } else if (line.includes('HIRING COMPANIES')) {
                 currentSection = 'companies';
-                i++; // Skip header row
                 continue;
             }
 
@@ -157,16 +153,18 @@ class MaritimeJobWidget {
                 const label = cells[0].toLowerCase();
                 if (label.includes('total active jobs')) {
                     data.summary.totalJobs = parseInt(cells[1].replace(/,/g, '')) || 0;
-                } else if (label.includes('bay area jobs')) {
-                    data.summary.bayAreaJobs = parseInt(cells[1].replace(/,/g, '')) || 0;
+                } else if (label.includes('bay area jobs') || label.includes('california')) {
+                    data.summary.californiaJobs = parseInt(cells[1].replace(/,/g, '')) || 0;
                 } else if (label.includes('last updated')) {
                     data.lastUpdated = cells[1];
                 }
-            } else if (currentSection === 'locations' && cells.length >= 2) {
-                const location = cells[0];
+            } else if (currentSection === 'jobTitles' && cells.length >= 2) {
+                // Read job categories from rows 18-26 (A18:A26 in spreadsheet)
+                // After header row, next rows are the categories
+                const jobTitle = cells[0];
                 const count = parseInt(cells[1].replace(/,/g, '')) || 0;
-                if (location && count > 0 && data.locations.length < this.options.showLocations) {
-                    data.locations.push({ location, count });
+                if (jobTitle && count > 0 && data.jobTitles.length < 10) {
+                    data.jobTitles.push({ title: jobTitle, count });
                 }
             } else if (currentSection === 'companies' && cells.length >= 2) {
                 const company = cells[0];
@@ -241,22 +239,22 @@ class MaritimeJobWidget {
                     <div class="stat-card stat-secondary">
                         <div class="stat-icon">📍</div>
                         <div class="stat-content">
-                            <div class="stat-value">${this.formatNumber(summary.bayAreaJobs)}</div>
-                            <div class="stat-label">Bay Area Opportunities</div>
+                            <div class="stat-value">${this.formatNumber(summary.californiaJobs)}</div>
+                            <div class="stat-label">Open Opportunities in California</div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Two Column Layout -->
                 <div class="maritime-grid">
-                    <!-- Top Locations -->
+                    <!-- Top Job Titles -->
                     <div class="maritime-section">
                         <h3 class="section-title">
-                            <span class="section-icon">🌊</span>
-                            Top Hiring Locations
+                            <span class="section-icon">🔧</span>
+                            Jobs in Highest Demand
                         </h3>
-                        <div class="location-list">
-                            ${this.renderLocations(locations)}
+                        <div class="job-list">
+                            ${this.renderJobTitles(this.data.jobTitles)}
                         </div>
                     </div>
 
@@ -271,25 +269,19 @@ class MaritimeJobWidget {
                         </div>
                     </div>
                 </div>
-
-                <!-- Footer -->
-                <div class="maritime-footer">
-                    <p class="update-time">Last updated: ${lastUpdated || 'Recently'}</p>
-                    <p class="update-schedule">Data refreshes every Monday</p>
-                </div>
             </div>
         `;
     }
 
-    renderLocations(locations) {
-        if (!locations || locations.length === 0) {
-            return '<p class="no-data">No location data available</p>';
+    renderJobTitles(jobTitles) {
+        if (!jobTitles || jobTitles.length === 0) {
+            return '<p class="no-data">No job title data available</p>';
         }
 
-        return locations.map((item, index) => `
+        return jobTitles.map((item, index) => `
             <div class="list-item">
                 <span class="item-rank">${index + 1}</span>
-                <span class="item-name">${this.escapeHtml(item.location)}</span>
+                <span class="item-name">${this.escapeHtml(item.title)}</span>
                 <span class="item-count">${this.formatNumber(item.count)} jobs</span>
             </div>
         `).join('');
