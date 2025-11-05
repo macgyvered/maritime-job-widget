@@ -7,33 +7,33 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     max-width: 900px;
     margin: 0 auto;
-    padding: 20px 15px;
+    padding: 15px 12px;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    border-radius: 16px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
 }
 
 /* Header */
 .maritime-header {
     text-align: center;
-    margin-bottom: 20px;
-    padding-bottom: 15px;
-    border-bottom: 3px solid #0066a1;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #0066a1;
 }
 
 .maritime-title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #003d5c;
     margin: 0;
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
 }
 
 .anchor-icon {
-    font-size: 2rem;
+    font-size: 1.5rem;
     animation: float 3s ease-in-out infinite;
 }
 
@@ -45,19 +45,19 @@
 /* Summary Stats */
 .maritime-stats {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 15px;
-    margin-bottom: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 12px;
+    margin-bottom: 15px;
 }
 
 .stat-card {
     background: white;
-    padding: 20px;
-    border-radius: 12px;
+    padding: 15px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
-    gap: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    gap: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .stat-icon {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1;
 }
 
@@ -84,49 +84,49 @@
 }
 
 .stat-value {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
     color: #003d5c;
     line-height: 1.2;
 }
 
 .stat-label {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: #5a6c7d;
-    margin-top: 5px;
+    margin-top: 3px;
     font-weight: 500;
 }
 
 /* Grid Layout */
 .maritime-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 12px;
     margin-bottom: 0;
 }
 
 /* Sections */
 .maritime-section {
     background: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
 }
 
 .section-title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #003d5c;
-    margin: 0 0 15px 0;
+    margin: 0 0 12px 0;
     font-weight: 600;
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding-bottom: 10px;
+    gap: 8px;
+    padding-bottom: 8px;
     border-bottom: 2px solid #e8ecef;
 }
 
 .section-icon {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 /* Lists */
@@ -135,17 +135,17 @@
 .job-list {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
 }
 
 .list-item {
     display: grid;
-    grid-template-columns: 35px 1fr auto;
+    grid-template-columns: 30px 1fr auto;
     align-items: center;
-    gap: 12px;
-    padding: 10px;
+    gap: 10px;
+    padding: 8px;
     background: #f8f9fa;
-    border-radius: 8px;
+    border-radius: 6px;
     transition: all 0.3s ease;
 }
 
@@ -155,8 +155,8 @@
 }
 
 .item-rank {
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
     background: linear-gradient(135deg, #0066a1, #00a8e8);
     color: white;
     border-radius: 50%;
@@ -164,22 +164,22 @@
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
 }
 
 .item-name {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     color: #003d5c;
     font-weight: 500;
 }
 
 .item-count {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: #5a6c7d;
     font-weight: 600;
     background: white;
-    padding: 4px 10px;
-    border-radius: 20px;
+    padding: 3px 8px;
+    border-radius: 16px;
 }
 
 .no-data {
