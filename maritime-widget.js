@@ -125,53 +125,64 @@ class MaritimeJobWidget {
         };
 
         // Parse the CSV data based on MaritimeReport structure
-        let currentSection = null;
         let rowNumber = 0;
         
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i].trim();
-            rowNumber = i + 1; // CSV rows are 1-indexed
+            rowNumber = i + 1; // CSV rows are 1-indexed (row 1 = index 0)
             
             if (!line) continue;
 
             const cells = this.parseCSVLine(line);
             
-            // Identify sections by headers
-            if (line.includes('MARITIME JOB MARKET SUMMARY')) {
-                currentSection = 'summary';
-                continue;
-            } else if (line.includes('JOB CATEGORIES ANALYSIS')) {
-                currentSection = 'jobTitles';
-                continue;
-            } else if (line.includes('HIRING COMPANIES')) {
-                currentSection = 'companies';
-                continue;
+            // Row 10 (index 9) = California jobs in column B (index 1)
+            if (rowNumber === 10 && cells.length >= 2) {
+                const value = cells[1].replace(/,/g, '').trim();
+                if (value && !isNaN(value)) {
+                    data.summary.californiaJobs = parseInt(value) || 0;
+                }
             }
-
-            // Parse data based on current section
-            if (currentSection === 'summary' && cells.length >= 2) {
-                const label = cells[0].toLowerCase();
-                if (label.includes('total active jobs')) {
-                    data.summary.totalJobs = parseInt(cells[1].replace(/,/g, '')) || 0;
-                } else if (label.includes('bay area jobs') || label.includes('california')) {
-                    data.summary.californiaJobs = parseInt(cells[1].replace(/,/g, '')) || 0;
-                } else if (label.includes('last updated')) {
-                    data.lastUpdated = cells[1];
+            
+            // Row 3 (index 2) = Total jobs in column B (index 1)
+            if (rowNumber === 3 && cells.length >= 2) {
+                const value = cells[1].replace(/,/g, '').trim();
+                if (value && !isNaN(value)) {
+                    data.summary.totalJobs = parseInt(value) || 0;
                 }
-            } else if (currentSection === 'jobTitles' && cells.length >= 2) {
-                // Read job categories from rows 18-26 (A18:A26 in spreadsheet)
-                // After header row, next rows are the categories
-                const jobTitle = cells[0];
-                const count = parseInt(cells[1].replace(/,/g, '')) || 0;
-                if (jobTitle && count > 0 && data.jobTitles.length < 10) {
-                    data.jobTitles.push({ title: jobTitle, count });
+            }
+            
+            // Rows 19-27 (indices 18-26) = Job titles in column A (index 0)
+            if (rowNumber >= 19 && rowNumber <= 27 && cells.length >= 1) {
+                const jobTitle = cells[0].trim();
+                // Get job count from column B if available
+                const count = cells.length >= 2 ? (parseInt(cells[1].replace(/,/g, '')) || 0) : 0;
+                
+                if (jobTitle && jobTitle !== '' && data.jobTitles.length < 10) {
+                    data.jobTitles.push({ 
+                        title: jobTitle, 
+                        count: count 
+                    });
                 }
-            } else if (currentSection === 'companies' && cells.length >= 2) {
-                const company = cells[0];
-                const count = parseInt(cells[1].replace(/,/g, '')) || 0;
-                if (company && count > 0 && data.companies.length < this.options.showCompanies) {
-                    data.companies.push({ company, count });
+            }
+            
+            // Companies section - look for the header then read next rows
+            if (line.includes('HIRING COMPANIES')) {
+                // Read next 5-10 rows for companies
+                for (let j = i + 2; j < Math.min(i + 12, lines.length); j++) {
+                    const companyLine = lines[j].trim();
+                    if (!companyLine) continue;
+                    
+                    const companyCells = this.parseCSVLine(companyLine);
+                    if (companyCells.length >= 2) {
+                        const company = companyCells[0].trim();
+                        const count = parseInt(companyCells[1].replace(/,/g, '')) || 0;
+                        
+                        if (company && count > 0 && data.companies.length < 5) {
+                            data.companies.push({ company, count });
+                        }
+                    }
                 }
+                break; // Stop after reading companies
             }
         }
 
