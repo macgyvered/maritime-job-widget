@@ -137,7 +137,7 @@ class MaritimeJobWidget {
             
             // Row 2 = Total Active Jobs in column B (index 1)
             if (rowNumber === 2 && cells.length >= 2) {
-                const value = cells[1].replace(/,/g, '').trim();
+                const value = cells[1].replace(/,/g, '').replace(/"/g, '').trim();
                 if (value && !isNaN(value)) {
                     data.summary.totalJobs = parseInt(value) || 0;
                 }
@@ -145,7 +145,7 @@ class MaritimeJobWidget {
             
             // Row 7 = California in column B (index 1)
             if (rowNumber === 7 && cells.length >= 2) {
-                const value = cells[1].replace(/,/g, '').trim();
+                const value = cells[1].replace(/,/g, '').replace(/"/g, '').trim();
                 if (value && !isNaN(value)) {
                     data.summary.californiaJobs = parseInt(value) || 0;
                 }
@@ -153,8 +153,8 @@ class MaritimeJobWidget {
             
             // Rows 13-22 = Job titles in column A (index 0), counts in column B (index 1)
             if (rowNumber >= 13 && rowNumber <= 22 && cells.length >= 2) {
-                const jobTitle = cells[0].trim();
-                const count = parseInt(cells[1].replace(/,/g, '')) || 0;
+                const jobTitle = cells[0].replace(/"/g, '').trim();
+                const count = parseInt(cells[1].replace(/,/g, '').replace(/"/g, '')) || 0;
                 
                 // Skip empty rows and header rows
                 if (jobTitle && jobTitle !== '' && jobTitle !== 'Job Title' && count > 0) {
@@ -167,8 +167,8 @@ class MaritimeJobWidget {
             
             // Rows 25-29 = Companies in column A (index 0), counts in column B (index 1)
             if (rowNumber >= 25 && rowNumber <= 29 && cells.length >= 2) {
-                const company = cells[0].trim();
-                const count = parseInt(cells[1].replace(/,/g, '')) || 0;
+                const company = cells[0].replace(/"/g, '').trim();
+                const count = parseInt(cells[1].replace(/,/g, '').replace(/"/g, '')) || 0;
                 
                 // Skip empty rows and header rows
                 if (company && company !== '' && company !== 'Company Name' && count > 0) {
