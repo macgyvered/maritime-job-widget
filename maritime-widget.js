@@ -135,7 +135,15 @@ class MaritimeJobWidget {
 
             const cells = this.parseCSVLine(line);
             
-            // Row 10 (index 9) = California jobs in column B (index 1)
+            // Row 3 (index 2) = Total Active Jobs in column C (index 2)
+            if (rowNumber === 3 && cells.length >= 3) {
+                const value = cells[2].replace(/,/g, '').trim();
+                if (value && !isNaN(value)) {
+                    data.summary.totalJobs = parseInt(value) || 0;
+                }
+            }
+            
+            // Row 10 (index 9) = California in column B (index 1)
             if (rowNumber === 10 && cells.length >= 2) {
                 const value = cells[1].replace(/,/g, '').trim();
                 if (value && !isNaN(value)) {
@@ -143,21 +151,14 @@ class MaritimeJobWidget {
                 }
             }
             
-            // Row 3 (index 2) = Total jobs in column B (index 1)
-            if (rowNumber === 3 && cells.length >= 2) {
-                const value = cells[1].replace(/,/g, '').trim();
-                if (value && !isNaN(value)) {
-                    data.summary.totalJobs = parseInt(value) || 0;
-                }
-            }
-            
-            // Rows 19-27 (indices 18-26) = Job titles in column A (index 0)
-            if (rowNumber >= 19 && rowNumber <= 27 && cells.length >= 1) {
+            // Rows 18-26 (indices 17-25) = Job titles in column A (index 0), counts in column B (index 1)
+            if (rowNumber >= 18 && rowNumber <= 26 && cells.length >= 1) {
                 const jobTitle = cells[0].trim();
                 // Get job count from column B if available
                 const count = cells.length >= 2 ? (parseInt(cells[1].replace(/,/g, '')) || 0) : 0;
                 
-                if (jobTitle && jobTitle !== '' && data.jobTitles.length < 10) {
+                // Skip empty rows and header rows
+                if (jobTitle && jobTitle !== '' && jobTitle !== 'Job Title' && data.jobTitles.length < 10) {
                     data.jobTitles.push({ 
                         title: jobTitle, 
                         count: count 
@@ -165,24 +166,18 @@ class MaritimeJobWidget {
                 }
             }
             
-            // Companies section - look for the header then read next rows
-            if (line.includes('HIRING COMPANIES')) {
-                // Read next 5-10 rows for companies
-                for (let j = i + 2; j < Math.min(i + 12, lines.length); j++) {
-                    const companyLine = lines[j].trim();
-                    if (!companyLine) continue;
-                    
-                    const companyCells = this.parseCSVLine(companyLine);
-                    if (companyCells.length >= 2) {
-                        const company = companyCells[0].trim();
-                        const count = parseInt(companyCells[1].replace(/,/g, '')) || 0;
-                        
-                        if (company && count > 0 && data.companies.length < 5) {
-                            data.companies.push({ company, count });
-                        }
-                    }
+            // Rows 32-36 (indices 31-35) = Companies in column A (index 0), counts in column B (index 1)
+            if (rowNumber >= 32 && rowNumber <= 36 && cells.length >= 2) {
+                const company = cells[0].trim();
+                const count = parseInt(cells[1].replace(/,/g, '')) || 0;
+                
+                // Skip empty rows and header rows
+                if (company && company !== '' && company !== 'Company Name' && count > 0 && data.companies.length < 5) {
+                    data.companies.push({ 
+                        company: company, 
+                        count: count 
+                    });
                 }
-                break; // Stop after reading companies
             }
         }
 
