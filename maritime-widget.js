@@ -155,6 +155,8 @@ class MaritimeJobWidget {
                 const openings = parseInt(cells[1].replace(/,/g, '').replace(/"/g, '')) || 0;
                 const payRange = cells.length >= 3 ? cells[2].replace(/"/g, '').trim() : '';
                 
+                console.log(`Row ${rowNumber}: title="${jobTitle}", openings=${openings}, payRange="${payRange}"`);
+                
                 // Skip if it looks like a header
                 if (jobTitle && jobTitle !== '' && jobTitle !== 'Job Title' && jobTitle !== 'TOP 10 JOB TITLES' && openings > 0) {
                     data.jobTitles.push({ 
@@ -169,6 +171,8 @@ class MaritimeJobWidget {
             if (rowNumber >= 67 && rowNumber <= 76 && cells.length >= 2) {
                 const company = cells[0].replace(/"/g, '').trim();
                 const count = parseInt(cells[1].replace(/,/g, '').replace(/"/g, '')) || 0;
+                
+                console.log(`Row ${rowNumber}: company="${company}", count=${count}`);
                 
                 // Skip if it looks like a header
                 if (company && company !== '' && company !== 'Company Name' && company !== 'TOP 10 HIRING COMPANIES' && count > 0) {
@@ -296,7 +300,7 @@ class MaritimeJobWidget {
                     <div class="list-item">
                         <div class="item-number">${index + 1}</div>
                         <div class="item-text">${this.escapeHtml(job.title)} • ${job.payRange}</div>
-                        <div class="item-count">${job.openings}</div>
+                        <div class="item-count-badge">${job.openings} Openings</div>
                     </div>
                 `;
             } else {
@@ -304,7 +308,7 @@ class MaritimeJobWidget {
                     <div class="list-item">
                         <div class="item-number">${index + 1}</div>
                         <div class="item-text">${this.escapeHtml(job.title)}</div>
-                        <div class="item-count">${job.openings}</div>
+                        <div class="item-count-badge">${job.openings} Openings</div>
                     </div>
                 `;
             }
@@ -320,7 +324,7 @@ class MaritimeJobWidget {
             <div class="list-item">
                 <div class="item-number">${index + 1}</div>
                 <div class="item-text">${this.escapeHtml(item.company)}</div>
-                <div class="item-count">${this.formatNumber(item.count)}</div>
+                <div class="item-count-badge">${this.formatNumber(item.count)} Openings</div>
             </div>
         `).join('');
     }
@@ -334,7 +338,7 @@ class MaritimeJobWidget {
             <div class="list-item">
                 <div class="item-number">${index + 1}</div>
                 <div class="item-text">${this.escapeHtml(item.city)}</div>
-                <div class="item-count">${this.formatNumber(item.count)}</div>
+                <div class="item-count-badge">${this.formatNumber(item.count)} Jobs</div>
             </div>
         `).join('');
     }
