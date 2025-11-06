@@ -123,15 +123,15 @@ class MaritimeJobWidget {
 
             const cells = this.parseCSVLine(line);
             
-            // Row 3 = Total Active Jobs in column C
-            if (rowNumber === 3 && cells.length >= 3) {
-                const value = cells[2].replace(/,/g, '').replace(/"/g, '').trim();
+            // Row 3 = Total Active Jobs in column B (index 1)
+            if (rowNumber === 3 && cells.length >= 2) {
+                const value = cells[1].replace(/,/g, '').replace(/"/g, '').trim();
                 if (value && !isNaN(value)) {
                     data.summary.totalJobs = parseInt(value) || 0;
                 }
             }
             
-            // Row 10 = California jobs in column B
+            // Row 10 = California jobs in column B (index 1)
             if (rowNumber === 10 && cells.length >= 2) {
                 const value = cells[1].replace(/,/g, '').replace(/"/g, '').trim();
                 if (value && !isNaN(value)) {
@@ -149,13 +149,14 @@ class MaritimeJobWidget {
                 }
             }
             
-            // Rows 53-62 = Job titles with pay ranges
+            // Rows 53-62 = Job titles with pay ranges (skip row 52 header)
             if (rowNumber >= 53 && rowNumber <= 62 && cells.length >= 2) {
                 const jobTitle = cells[0].replace(/"/g, '').trim();
                 const openings = parseInt(cells[1].replace(/,/g, '').replace(/"/g, '')) || 0;
                 const payRange = cells.length >= 3 ? cells[2].replace(/"/g, '').trim() : '';
                 
-                if (jobTitle && jobTitle !== '' && jobTitle !== 'Job Title') {
+                // Skip if it looks like a header
+                if (jobTitle && jobTitle !== '' && jobTitle !== 'Job Title' && jobTitle !== 'TOP 10 JOB TITLES' && openings > 0) {
                     data.jobTitles.push({ 
                         title: jobTitle, 
                         openings: openings,
@@ -164,12 +165,13 @@ class MaritimeJobWidget {
                 }
             }
             
-            // Rows 67-76 = Top 10 companies
+            // Rows 67-76 = Top 10 companies (skip row 66 header)
             if (rowNumber >= 67 && rowNumber <= 76 && cells.length >= 2) {
                 const company = cells[0].replace(/"/g, '').trim();
                 const count = parseInt(cells[1].replace(/,/g, '').replace(/"/g, '')) || 0;
                 
-                if (company && company !== '' && company !== 'Company Name' && count > 0) {
+                // Skip if it looks like a header
+                if (company && company !== '' && company !== 'Company Name' && company !== 'TOP 10 HIRING COMPANIES' && count > 0) {
                     data.companies.push({ company, count });
                 }
             }
@@ -293,18 +295,16 @@ class MaritimeJobWidget {
                 return `
                     <div class="list-item">
                         <div class="item-number">${index + 1}</div>
-                        <div class="item-content">
-                            <div class="item-title">${this.escapeHtml(job.title)} • ${job.payRange} • ${job.openings} Openings</div>
-                        </div>
+                        <div class="item-text">${this.escapeHtml(job.title)} • ${job.payRange}</div>
+                        <div class="item-count">${job.openings}</div>
                     </div>
                 `;
             } else {
                 return `
                     <div class="list-item">
                         <div class="item-number">${index + 1}</div>
-                        <div class="item-content">
-                            <div class="item-title">${this.escapeHtml(job.title)} • ${job.openings} Openings</div>
-                        </div>
+                        <div class="item-text">${this.escapeHtml(job.title)}</div>
+                        <div class="item-count">${job.openings}</div>
                     </div>
                 `;
             }
@@ -319,9 +319,8 @@ class MaritimeJobWidget {
         return companies.map((item, index) => `
             <div class="list-item">
                 <div class="item-number">${index + 1}</div>
-                <div class="item-content">
-                    <div class="item-title">${this.escapeHtml(item.company)} • ${this.formatNumber(item.count)} jobs</div>
-                </div>
+                <div class="item-text">${this.escapeHtml(item.company)}</div>
+                <div class="item-count">${this.formatNumber(item.count)}</div>
             </div>
         `).join('');
     }
@@ -334,9 +333,8 @@ class MaritimeJobWidget {
         return cities.map((item, index) => `
             <div class="list-item">
                 <div class="item-number">${index + 1}</div>
-                <div class="item-content">
-                    <div class="item-title">${this.escapeHtml(item.city)} • ${this.formatNumber(item.count)} jobs</div>
-                </div>
+                <div class="item-text">${this.escapeHtml(item.city)}</div>
+                <div class="item-count">${this.formatNumber(item.count)}</div>
             </div>
         `).join('');
     }
