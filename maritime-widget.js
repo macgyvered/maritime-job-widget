@@ -1,7 +1,7 @@
 /**
- * Maritime Job Market Widget
- * Automatically displays live job market data from Google Sheets
- * Updates: Every Monday via automated pipeline
+ * Maritime Job Market Widget v2.0
+ * Modern glassmorphism design with comprehensive job market data
+ * Auto-updates from Google Sheets every Monday
  */
 
 class MaritimeJobWidget {
@@ -14,12 +14,8 @@ class MaritimeJobWidget {
 
         // Configuration
         this.options = {
-            // Your public Google Sheets API URL (CSV format)
             apiUrl: 'https://docs.google.com/spreadsheets/d/1uZuWup1L7uwQjb-7SyKLw0zzJ30W9a4Kz9iIi8LISgY/gviz/tq?tqx=out:csv&sheet=MaritimeReport',
-            refreshInterval: 300000, // Refresh every 5 minutes (optional)
-            showLocations: 5, // Show top 5 locations
-            showJobTitles: 10, // Show top 10 job titles
-            showCompanies: 5, // Show top 5 companies
+            refreshInterval: null, // Optional auto-refresh
             ...options
         };
 
@@ -34,7 +30,6 @@ class MaritimeJobWidget {
         await this.loadData();
         this.render();
         
-        // Optional: Auto-refresh data periodically
         if (this.options.refreshInterval) {
             setInterval(() => this.loadData().then(() => this.render()), this.options.refreshInterval);
         }
@@ -51,7 +46,6 @@ class MaritimeJobWidget {
 
     async loadData() {
         try {
-            // Check if we have cached data from localStorage
             const cachedData = this.getCachedData();
             if (cachedData) {
                 this.data = cachedData.data;
@@ -60,14 +54,12 @@ class MaritimeJobWidget {
                 return true;
             }
 
-            // Fetch fresh data if no cache or cache expired
             console.log('Maritime Widget: Fetching fresh data from Google Sheets');
             const response = await fetch(this.options.apiUrl);
             const csvText = await response.text();
             this.data = this.parseCSVData(csvText);
             this.lastUpdate = new Date();
             
-            // Cache the data for 1 hour
             this.cacheData(this.data);
             
             return true;
@@ -85,14 +77,12 @@ class MaritimeJobWidget {
 
             const parsed = JSON.parse(cached);
             const cacheAge = Date.now() - parsed.timestamp;
-            const oneHour = 60 * 60 * 1000; // 1 hour in milliseconds
+            const oneHour = 60 * 60 * 1000;
 
-            // Cache is valid for 1 hour
             if (cacheAge < oneHour) {
                 return parsed;
             }
             
-            // Cache expired
             localStorage.removeItem('maritime-widget-cache');
             return null;
         } catch (error) {
@@ -111,7 +101,6 @@ class MaritimeJobWidget {
             console.log('Maritime Widget: Data cached for 1 hour');
         } catch (error) {
             console.error('Maritime Widget: Failed to cache data', error);
-            // Continue without caching - not critical
         }
     }
 
@@ -121,61 +110,67 @@ class MaritimeJobWidget {
             summary: {},
             jobTitles: [],
             companies: [],
-            lastUpdated: null
+            cities: []
         };
 
-        // Parse the CSV data based on actual CSV structure
         let rowNumber = 0;
         
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i].trim();
-            rowNumber = i + 1; // CSV rows are 1-indexed
+            rowNumber = i + 1;
             
             if (!line) continue;
 
             const cells = this.parseCSVLine(line);
             
-            // Row 2 = Total Active Jobs in column B (index 1)
-            if (rowNumber === 2 && cells.length >= 2) {
-                const value = cells[1].replace(/,/g, '').replace(/"/g, '').trim();
+            // Row 3 = Total Active Jobs in column C
+            if (rowNumber === 3 && cells.length >= 3) {
+                const value = cells[2].replace(/,/g, '').replace(/"/g, '').trim();
                 if (value && !isNaN(value)) {
                     data.summary.totalJobs = parseInt(value) || 0;
                 }
             }
             
-            // Row 7 = California in column B (index 1)
-            if (rowNumber === 7 && cells.length >= 2) {
+            // Row 10 = California jobs in column B
+            if (rowNumber === 10 && cells.length >= 2) {
                 const value = cells[1].replace(/,/g, '').replace(/"/g, '').trim();
                 if (value && !isNaN(value)) {
                     data.summary.californiaJobs = parseInt(value) || 0;
                 }
             }
             
-            // Rows 13-22 = Job titles in column A (index 0), counts in column B (index 1)
-            if (rowNumber >= 13 && rowNumber <= 22 && cells.length >= 2) {
-                const jobTitle = cells[0].replace(/"/g, '').trim();
+            // Rows 18-27 = California cities (top 10)
+            if (rowNumber >= 18 && rowNumber <= 27 && cells.length >= 2) {
+                const city = cells[0].replace(/"/g, '').trim();
                 const count = parseInt(cells[1].replace(/,/g, '').replace(/"/g, '')) || 0;
                 
-                // Skip empty rows and header rows
-                if (jobTitle && jobTitle !== '' && jobTitle !== 'Job Title' && count > 0) {
+                if (city && city !== '' && city !== 'City' && count > 0) {
+                    data.cities.push({ city, count });
+                }
+            }
+            
+            // Rows 53-62 = Job titles with pay ranges
+            if (rowNumber >= 53 && rowNumber <= 62 && cells.length >= 2) {
+                const jobTitle = cells[0].replace(/"/g, '').trim();
+                const openings = parseInt(cells[1].replace(/,/g, '').replace(/"/g, '')) || 0;
+                const payRange = cells.length >= 3 ? cells[2].replace(/"/g, '').trim() : '';
+                
+                if (jobTitle && jobTitle !== '' && jobTitle !== 'Job Title') {
                     data.jobTitles.push({ 
                         title: jobTitle, 
-                        count: count 
+                        openings: openings,
+                        payRange: payRange
                     });
                 }
             }
             
-            // Rows 25-29 = Companies in column A (index 0), counts in column B (index 1)
-            if (rowNumber >= 25 && rowNumber <= 29 && cells.length >= 2) {
+            // Rows 67-76 = Top 10 companies
+            if (rowNumber >= 67 && rowNumber <= 76 && cells.length >= 2) {
                 const company = cells[0].replace(/"/g, '').trim();
                 const count = parseInt(cells[1].replace(/,/g, '').replace(/"/g, '')) || 0;
                 
-                // Skip empty rows and header rows
                 if (company && company !== '' && company !== 'Company Name' && count > 0) {
-                    data.companies.push({ 
-                        company: company, 
-                        count: count 
-                    });
+                    data.companies.push({ company, count });
                 }
             }
         }
@@ -219,7 +214,7 @@ class MaritimeJobWidget {
             return;
         }
 
-        const { summary, locations, companies, lastUpdated } = this.data;
+        const { summary, jobTitles, companies, cities } = this.data;
 
         this.container.innerHTML = `
             <div class="maritime-widget">
@@ -233,7 +228,7 @@ class MaritimeJobWidget {
 
                 <!-- Summary Stats -->
                 <div class="maritime-stats">
-                    <div class="stat-card stat-primary">
+                    <div class="stat-card">
                         <div class="stat-icon">💼</div>
                         <div class="stat-content">
                             <div class="stat-value">${this.formatNumber(summary.totalJobs)}</div>
@@ -241,7 +236,7 @@ class MaritimeJobWidget {
                         </div>
                     </div>
                     
-                    <div class="stat-card stat-secondary">
+                    <div class="stat-card">
                         <div class="stat-icon">📍</div>
                         <div class="stat-content">
                             <div class="stat-value">${this.formatNumber(summary.californiaJobs)}</div>
@@ -250,27 +245,35 @@ class MaritimeJobWidget {
                     </div>
                 </div>
 
-                <!-- Two Column Layout -->
-                <div class="maritime-grid">
-                    <!-- Top Job Titles -->
+                <!-- Three Column Grid -->
+                <div class="maritime-grid-three">
+                    <!-- Column 1: Job Titles -->
                     <div class="maritime-section">
                         <h3 class="section-title">
-                            <span class="section-icon">🔧</span>
-                            Jobs in Highest Demand
+                            💼 Jobs in Highest Demand
                         </h3>
-                        <div class="job-list">
-                            ${this.renderJobTitles(this.data.jobTitles)}
+                        <div class="data-list">
+                            ${this.renderJobTitlesWithPay(jobTitles)}
                         </div>
                     </div>
 
-                    <!-- Top Companies -->
+                    <!-- Column 2: Companies -->
                     <div class="maritime-section">
                         <h3 class="section-title">
-                            <span class="section-icon">🚢</span>
-                            Top Hiring Companies
+                            🏢 Top Hiring Companies
                         </h3>
-                        <div class="company-list">
+                        <div class="data-list">
                             ${this.renderCompanies(companies)}
+                        </div>
+                    </div>
+
+                    <!-- Column 3: Cities -->
+                    <div class="maritime-section">
+                        <h3 class="section-title">
+                            📍 Top California Locations
+                        </h3>
+                        <div class="data-list">
+                            ${this.renderCities(cities)}
                         </div>
                     </div>
                 </div>
@@ -278,18 +281,34 @@ class MaritimeJobWidget {
         `;
     }
 
-    renderJobTitles(jobTitles) {
+    renderJobTitlesWithPay(jobTitles) {
         if (!jobTitles || jobTitles.length === 0) {
-            return '<p class="no-data">No job title data available</p>';
+            return '<p class="no-data">No job data available</p>';
         }
 
-        return jobTitles.map((item, index) => `
-            <div class="list-item">
-                <span class="item-rank">${index + 1}</span>
-                <span class="item-name">${this.escapeHtml(item.title)}</span>
-                <span class="item-count">${this.formatNumber(item.count)} jobs</span>
-            </div>
-        `).join('');
+        return jobTitles.map((job, index) => {
+            const hasPay = job.payRange && job.payRange !== '' && job.payRange !== 'Not Specified';
+            
+            if (hasPay) {
+                return `
+                    <div class="list-item">
+                        <div class="item-number">${index + 1}</div>
+                        <div class="item-content">
+                            <div class="item-title">${this.escapeHtml(job.title)} • ${job.payRange} • ${job.openings} Openings</div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                return `
+                    <div class="list-item">
+                        <div class="item-number">${index + 1}</div>
+                        <div class="item-content">
+                            <div class="item-title">${this.escapeHtml(job.title)} • ${job.openings} Openings</div>
+                        </div>
+                    </div>
+                `;
+            }
+        }).join('');
     }
 
     renderCompanies(companies) {
@@ -299,9 +318,25 @@ class MaritimeJobWidget {
 
         return companies.map((item, index) => `
             <div class="list-item">
-                <span class="item-rank">${index + 1}</span>
-                <span class="item-name">${this.escapeHtml(item.company)}</span>
-                <span class="item-count">${this.formatNumber(item.count)} jobs</span>
+                <div class="item-number">${index + 1}</div>
+                <div class="item-content">
+                    <div class="item-title">${this.escapeHtml(item.company)} • ${this.formatNumber(item.count)} jobs</div>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    renderCities(cities) {
+        if (!cities || cities.length === 0) {
+            return '<p class="no-data">No city data available</p>';
+        }
+
+        return cities.map((item, index) => `
+            <div class="list-item">
+                <div class="item-number">${index + 1}</div>
+                <div class="item-content">
+                    <div class="item-title">${this.escapeHtml(item.city)} • ${this.formatNumber(item.count)} jobs</div>
+                </div>
             </div>
         `).join('');
     }
@@ -318,7 +353,7 @@ class MaritimeJobWidget {
     }
 }
 
-// Auto-initialize if data-maritime-widget attribute is present
+// Auto-initialize
 document.addEventListener('DOMContentLoaded', function() {
     const autoWidgets = document.querySelectorAll('[data-maritime-widget]');
     autoWidgets.forEach(element => {
