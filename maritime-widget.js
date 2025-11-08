@@ -14,8 +14,8 @@ class MaritimeJobWidget {
 
         // Configuration
         this.options = {
-            // Public Google Sheets CSV export URL
-            apiUrl: 'https://docs.google.com/spreadsheets/d/1uZuWup1L7uwQjb-7SyKLw0zzJ30W9a4Kz9iIi8LISgY/gviz/tq?tqx=out:csv&sheet=MaritimeReport_Data',
+            // JSON data file updated by GitHub Actions
+            apiUrl: 'https://macgyvered.github.io/maritime-job-widget/maritime-data.json',
             refreshInterval: 3600000, // Refresh every hour
             showTopItems: 10, // Show top 10 items for each category
             ...options
@@ -59,16 +59,16 @@ class MaritimeJobWidget {
                 return true;
             }
 
-            // Fetch fresh data
-            console.log('Maritime Widget: Fetching data from Google Sheets');
+            // Fetch fresh JSON data
+            console.log('Maritime Widget: Fetching data from JSON file');
             const response = await fetch(this.options.apiUrl);
             
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             
-            const csvText = await response.text();
-            this.data = this.parseCSVData(csvText);
+            // Data is already in JSON format
+            this.data = await response.json();
             
             // Cache the data
             this.cacheData(this.data);
@@ -79,108 +79,6 @@ class MaritimeJobWidget {
             this.showError(error.message);
             return false;
         }
-    }
-
-    parseCSVData(csvText) {
-        const lines = csvText.trim().split('\n');
-        const data = {
-            totalJobs: 0,
-            californiaJobs: 0,
-            lastUpdated: '',
-            topCities: [],
-            topJobs: [],
-            topCompanies: []
-        };
-
-        let currentSection = null;
-
-        for (let i = 0; i < lines.length; i++) {
-            const cells = this.parseCSVLine(lines[i]);
-            
-            // Skip empty lines
-            if (cells.length === 0 || cells.every(cell => !cell)) {
-                continue;
-            }
-
-            const section = cells[0];
-            const metric = cells[1];
-            const value = cells[2];
-
-            // Parse Summary section
-            if (section === 'Summary') {
-                if (metric === 'Total Active Job Openings') {
-                    data.totalJobs = parseInt(value) || 0;
-                } else if (metric === 'Job Openings in California') {
-                    data.californiaJobs = parseInt(value) || 0;
-                } else if (metric === 'Last Updated') {
-                    data.lastUpdated = value;
-                }
-            }
-            
-            // Identify section headers
-            else if (section === 'Section') {
-                if (metric === 'City') {
-                    currentSection = 'cities';
-                } else if (metric === 'Job Title') {
-                    currentSection = 'jobs';
-                } else if (metric === 'Company Name') {
-                    currentSection = 'companies';
-                }
-                continue;
-            }
-            
-            // Parse data rows based on current section
-            else if (currentSection === 'cities' && section === 'CA Cities') {
-                if (data.topCities.length < this.options.showTopItems) {
-                    data.topCities.push({
-                        name: metric,
-                        count: parseInt(value) || 0
-                    });
-                }
-            }
-            else if (currentSection === 'jobs' && section === 'Top Jobs') {
-                if (data.topJobs.length < this.options.showTopItems) {
-                    data.topJobs.push({
-                        title: metric,
-                        count: parseInt(value) || 0,
-                        payRange: cells[3] || ''
-                    });
-                }
-            }
-            else if (currentSection === 'companies' && section === 'Top Companies') {
-                if (data.topCompanies.length < this.options.showTopItems) {
-                    data.topCompanies.push({
-                        name: metric,
-                        count: parseInt(value) || 0
-                    });
-                }
-            }
-        }
-
-        console.log('Maritime Widget: Parsed data', data);
-        return data;
-    }
-
-    parseCSVLine(line) {
-        const cells = [];
-        let current = '';
-        let inQuotes = false;
-
-        for (let i = 0; i < line.length; i++) {
-            const char = line[i];
-            
-            if (char === '"') {
-                inQuotes = !inQuotes;
-            } else if (char === ',' && !inQuotes) {
-                cells.push(current.trim());
-                current = '';
-            } else {
-                current += char;
-            }
-        }
-        
-        cells.push(current.trim());
-        return cells;
     }
 
     getCachedData() {
