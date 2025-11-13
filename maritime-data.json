@@ -1,0 +1,141 @@
+{
+  "totalJobs": 297,
+  "californiaJobs": 108,
+  "lastUpdated": "November 07, 2025 at 06:46 PM",
+  "topCities": [
+    {
+      "name": "Long Beach",
+      "count": 17
+    },
+    {
+      "name": "San Rafael",
+      "count": 12
+    },
+    {
+      "name": "Los Angeles",
+      "count": 9
+    },
+    {
+      "name": "Dixon",
+      "count": 8
+    },
+    {
+      "name": "Alameda",
+      "count": 7
+    },
+    {
+      "name": "Oakland",
+      "count": 5
+    },
+    {
+      "name": "Richmond",
+      "count": 5
+    },
+    {
+      "name": "San Francisco",
+      "count": 4
+    },
+    {
+      "name": "Wilmington",
+      "count": 3
+    },
+    {
+      "name": "Chula Vista",
+      "count": 2
+    }
+  ],
+  "topJobs": [
+    {
+      "title": "Project Manager",
+      "count": 8,
+      "payRange": "$100,000 - $150,000/yr"
+    },
+    {
+      "title": "Assistant Engineer [Mariner]",
+      "count": 5,
+      "payRange": ""
+    },
+    {
+      "title": "Deckhand",
+      "count": 5,
+      "payRange": ""
+    },
+    {
+      "title": "Captain",
+      "count": 4,
+      "payRange": ""
+    },
+    {
+      "title": "Deck Engineer",
+      "count": 4,
+      "payRange": ""
+    },
+    {
+      "title": "Marine Electrical Technician",
+      "count": 4,
+      "payRange": ""
+    },
+    {
+      "title": "Operator",
+      "count": 4,
+      "payRange": ""
+    },
+    {
+      "title": "Pilebuck",
+      "count": 4,
+      "payRange": ""
+    },
+    {
+      "title": "Quality Control Manager",
+      "count": 4,
+      "payRange": ""
+    },
+    {
+      "title": "Site Safety & Health Officer",
+      "count": 4,
+      "payRange": ""
+    }
+  ],
+  "topCompanies": [
+    {
+      "name": "Manson Construction",
+      "count": 32
+    },
+    {
+      "name": "HME Construction",
+      "count": 32
+    },
+    {
+      "name": "Curtin Maritime",
+      "count": 27
+    },
+    {
+      "name": "SSA Marine",
+      "count": 25
+    },
+    {
+      "name": "Bellingham Marine",
+      "count": 23
+    },
+    {
+      "name": "Pasha Group",
+      "count": 17
+    },
+    {
+      "name": "Crowley Marine Services",
+      "count": 17
+    },
+    {
+      "name": "Sealaska",
+      "count": 12
+    },
+    {
+      "name": "Alstom",
+      "count": 11
+    },
+    {
+      "name": "Foss Maritime",
+      "count": 10
+    }
+  ]
+}
