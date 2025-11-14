@@ -135,7 +135,7 @@ class MaritimeJobWidget {
         this.container.innerHTML = `
             <div class="maritime-widget">
                 <div class="widget-header">
-                    <h2 class="widget-title">Maritime Job Market Overview</h2>
+                    <h2 class="widget-title">Bay Area Maritime Job Market Overview</h2>
                 </div>
 
                 <div class="stats-row">
@@ -173,10 +173,22 @@ class MaritimeJobWidget {
                 </div>
 
                 <div class="widget-footer">
-                    <p>Last updated: ${lastUpdated || 'Recently'} • Updates every Monday at 2:30 AM EST</p>
+                    <p>Last updated: ${this.formatDateOnly(lastUpdated)} • Updates every Monday</p>
                 </div>
             </div>
         `;
+    }
+
+    formatDateOnly(dateString) {
+        // Extract just the date part (e.g., "November 07, 2025" from "November 07, 2025 at 06:46 PM")
+        if (!dateString) return 'Recently';
+        
+        // Check if it contains " at " and split
+        if (dateString.includes(' at ')) {
+            return dateString.split(' at ')[0];
+        }
+        
+        return dateString;
     }
 
     renderJobsList(jobs) {
@@ -190,7 +202,7 @@ class MaritimeJobWidget {
                     <span class="item-name">${this.escapeHtml(job.title)}</span>
                     ${job.payRange ? `<span class="item-detail">${this.escapeHtml(job.payRange)}</span>` : ''}
                 </div>
-                <span class="item-count">${job.count}</span>
+                <span class="item-count">${job.count} ${job.count === 1 ? 'job' : 'jobs'}</span>
             </div>
         `).join('');
     }
@@ -203,7 +215,7 @@ class MaritimeJobWidget {
         return cities.map(city => `
             <div class="list-item">
                 <span class="item-name">${this.escapeHtml(city.name)}</span>
-                <span class="item-count">${city.count}</span>
+                <span class="item-count">${city.count} ${city.count === 1 ? 'job' : 'jobs'}</span>
             </div>
         `).join('');
     }
@@ -216,7 +228,7 @@ class MaritimeJobWidget {
         return companies.map(company => `
             <div class="list-item">
                 <span class="item-name">${this.escapeHtml(company.name)}</span>
-                <span class="item-count">${company.count}</span>
+                <span class="item-count">${company.count} ${company.count === 1 ? 'job' : 'jobs'}</span>
             </div>
         `).join('');
     }
