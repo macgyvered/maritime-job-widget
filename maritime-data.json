@@ -1,11 +1,11 @@
 {
-  "totalJobs": 299,
-  "californiaJobs": 113,
-  "lastUpdated": "November 10, 2025 at 07:11 AM",
+  "totalJobs": 297,
+  "californiaJobs": 108,
+  "lastUpdated": "November 07, 2025",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 18
+      "count": 17
     },
     {
       "name": "San Rafael",
@@ -13,19 +13,15 @@
     },
     {
       "name": "Los Angeles",
-      "count": 11
+      "count": 9
+    },
+    {
+      "name": "Dixon",
+      "count": 8
     },
     {
       "name": "Alameda",
       "count": 7
-    },
-    {
-      "name": "Dixon",
-      "count": 7
-    },
-    {
-      "name": "San Francisco",
-      "count": 6
     },
     {
       "name": "Oakland",
@@ -36,11 +32,15 @@
       "count": 5
     },
     {
+      "name": "San Francisco",
+      "count": 4
+    },
+    {
       "name": "Wilmington",
       "count": 3
     },
     {
-      "name": "Dana Point",
+      "name": "Chula Vista",
       "count": 2
     }
   ],
@@ -56,7 +56,32 @@
       "payRange": ""
     },
     {
+      "title": "Deckhand",
+      "count": 5,
+      "payRange": ""
+    },
+    {
+      "title": "Captain",
+      "count": 4,
+      "payRange": ""
+    },
+    {
+      "title": "Deck Engineer",
+      "count": 4,
+      "payRange": ""
+    },
+    {
       "title": "Marine Electrical Technician",
+      "count": 4,
+      "payRange": ""
+    },
+    {
+      "title": "Operator",
+      "count": 4,
+      "payRange": ""
+    },
+    {
+      "title": "Pilebuck",
       "count": 4,
       "payRange": ""
     },
@@ -69,73 +94,48 @@
       "title": "Site Safety & Health Officer",
       "count": 4,
       "payRange": ""
-    },
-    {
-      "title": "Operator",
-      "count": 4,
-      "payRange": ""
-    },
-    {
-      "title": "Captain",
-      "count": 4,
-      "payRange": ""
-    },
-    {
-      "title": "Pilebuck",
-      "count": 4,
-      "payRange": ""
-    },
-    {
-      "title": "Deck Engineer",
-      "count": 4,
-      "payRange": ""
-    },
-    {
-      "title": "Deckhand",
-      "count": 4,
-      "payRange": ""
     }
   ],
   "topCompanies": [
     {
-      "name": "HME Construction",
+      "name": "Manson Construction",
       "count": 32
     },
     {
-      "name": "Manson Construction",
-      "count": 31
+      "name": "HME Construction",
+      "count": 32
     },
     {
       "name": "Curtin Maritime",
       "count": 27
     },
     {
+      "name": "SSA Marine",
+      "count": 25
+    },
+    {
       "name": "Bellingham Marine",
       "count": 23
     },
     {
-      "name": "SSA Marine",
-      "count": 20
-    },
-    {
       "name": "Pasha Group",
-      "count": 18
+      "count": 17
     },
     {
       "name": "Crowley Marine Services",
-      "count": 16
+      "count": 17
     },
     {
       "name": "Sealaska",
-      "count": 13
-    },
-    {
-      "name": "Alstom",
       "count": 12
     },
     {
-      "name": "Phillips 66",
+      "name": "Alstom",
       "count": 11
+    },
+    {
+      "name": "Foss Maritime",
+      "count": 10
     }
   ]
 }
