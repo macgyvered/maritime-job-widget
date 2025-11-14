@@ -21,13 +21,13 @@
 .widget-header {
     background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 100%);
     color: #ffffff;
-    padding: 17px 20px;  /* Keep reduced padding */
+    padding: 14px 20px;  /* 85% of 17px = 14px */
     text-align: center;
 }
 
 .widget-title {
     margin: 0;
-    font-size: 1.5rem;  /* Back to original size */
+    font-size: 1.5rem;
     font-weight: 800;
     letter-spacing: -0.02em;
 }
@@ -41,7 +41,7 @@
 }
 
 .stat-card {
-    padding: 17px;  /* Keep reduced padding */
+    padding: 14px;  /* 85% of 17px */
     text-align: center;
     border-right: 1px solid #e1e8ed;
 }
@@ -51,30 +51,30 @@
 }
 
 .stat-value {
-    font-size: 2.55rem;  /* Keep scaled - these are the big numbers that should stay smaller */
+    font-size: 2.55rem;
     font-weight: 800;
     color: #1e3a5f;
     line-height: 1;
-    margin-bottom: 8px;
+    margin-bottom: 6px;  /* 85% of 8px = 7px, rounded to 6px */
 }
 
 .stat-label {
-    font-size: 0.875rem;  /* Back to original size */
+    font-size: 0.875rem;
     color: #5a6c7d;
     font-weight: 600;
     line-height: 1.3;
 }
 
-/* Content Grid - 3 equal columns */
+/* Content Grid - 3 columns: 40%, 30%, 30% */
 .content-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 40% 30% 30%;  /* Custom distribution */
     gap: 0;
     border-bottom: 1px solid #e1e8ed;
 }
 
 .content-card {
-    padding: 15px;  /* Reduce padding to save space */
+    padding: 12px;  /* 85% of 15px = 13px, rounded to 12px */
     border-right: 1px solid #e1e8ed;
 }
 
@@ -83,22 +83,22 @@
 }
 
 .card-title {
-    margin: 0 0 14px 0;
-    font-size: 0.875rem;  /* Back to original size */
+    margin: 0 0 10px 0;  /* 85% of 14px = 12px, rounded to 10px */
+    font-size: 0.875rem;
     font-weight: 700;
     color: #1e3a5f;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    padding-bottom: 10px;
+    padding-bottom: 8px;  /* 85% of 10px = 8px */
     border-bottom: 2px solid #e1e8ed;
-    text-align: center;  /* Center the column headers */
+    text-align: center;
 }
 
 /* Item Lists */
 .item-list {
     display: flex;
     flex-direction: column;
-    gap: 6px;  /* Reduce gap to save space */
+    gap: 5px;  /* 85% of 6px = 5px */
 }
 
 .list-item {
@@ -106,7 +106,7 @@
     justify-content: space-between;
     align-items: flex-start;
     gap: 8px;
-    padding: 4px 0;  /* Reduce padding to save space */
+    padding: 3px 0;  /* 85% of 4px = 3px */
 }
 
 .item-info {
@@ -117,20 +117,20 @@
 }
 
 .item-name {
-    font-size: 0.875rem;  /* Back to original size */
+    font-size: 0.875rem;
     font-weight: 600;
     color: #2d3748;
     line-height: 1.3;
 }
 
 .item-detail {
-    font-size: 0.75rem;  /* Back to original size */
+    font-size: 0.75rem;
     color: #5a6c7d;
     font-weight: 400;
 }
 
 .item-count {
-    font-size: 0.8125rem;  /* Back to original size */
+    font-size: 0.8125rem;
     font-weight: 700;
     color: #1e3a5f;
     background: #e6f2ff;
@@ -152,13 +152,13 @@
 /* Footer */
 .widget-footer {
     background: #f7fafc;
-    padding: 10px 20px;
+    padding: 8px 20px;  /* 85% of 10px = 8px */
     text-align: center;
 }
 
 .widget-footer p {
     margin: 0;
-    font-size: 0.64rem;  /* Keep small as requested */
+    font-size: 0.64rem;
     color: #5a6c7d;
     font-weight: 500;
 }
