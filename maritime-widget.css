@@ -21,7 +21,7 @@
 .widget-header {
     background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 100%);
     color: #ffffff;
-    padding: 14px 20px;  /* 85% of 17px = 14px */
+    padding: 12px 20px;  /* 85% of 14px = 12px */
     text-align: center;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .stat-card {
-    padding: 14px;  /* 85% of 17px */
+    padding: 12px;  /* 85% of 14px = 12px */
     text-align: center;
     border-right: 1px solid #e1e8ed;
 }
@@ -55,7 +55,7 @@
     font-weight: 800;
     color: #1e3a5f;
     line-height: 1;
-    margin-bottom: 6px;  /* 85% of 8px = 7px, rounded to 6px */
+    margin-bottom: 5px;  /* 85% of 6px = 5px */
 }
 
 .stat-label {
@@ -74,7 +74,7 @@
 }
 
 .content-card {
-    padding: 12px;  /* 85% of 15px = 13px, rounded to 12px */
+    padding: 10px;  /* 85% of 12px = 10px */
     border-right: 1px solid #e1e8ed;
 }
 
@@ -83,13 +83,13 @@
 }
 
 .card-title {
-    margin: 0 0 10px 0;  /* 85% of 14px = 12px, rounded to 10px */
+    margin: 0 0 8px 0;  /* 85% of 10px = 8px */
     font-size: 0.875rem;
     font-weight: 700;
     color: #1e3a5f;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    padding-bottom: 8px;  /* 85% of 10px = 8px */
+    padding-bottom: 7px;  /* 85% of 8px = 7px */
     border-bottom: 2px solid #e1e8ed;
     text-align: center;
 }
@@ -98,7 +98,7 @@
 .item-list {
     display: flex;
     flex-direction: column;
-    gap: 5px;  /* 85% of 6px = 5px */
+    gap: 4px;  /* 85% of 5px = 4px */
 }
 
 .list-item {
@@ -106,7 +106,7 @@
     justify-content: space-between;
     align-items: flex-start;
     gap: 8px;
-    padding: 3px 0;  /* 85% of 4px = 3px */
+    padding: 2px 0;  /* 85% of 3px = 2.5px, rounded to 2px */
 }
 
 .item-info {
@@ -152,7 +152,7 @@
 /* Footer */
 .widget-footer {
     background: #f7fafc;
-    padding: 8px 20px;  /* 85% of 10px = 8px */
+    padding: 7px 20px;  /* 85% of 8px = 7px */
     text-align: center;
 }
 
