@@ -1,141 +1,101 @@
 {
-  "totalJobs": 299,
-  "californiaJobs": 114,
-  "lastUpdated": "November 15, 2025 at 03:20 PM",
+  "totalJobs": 23,
+  "californiaJobs": 16,
+  "lastUpdated": "November 17, 2025 at 07:11 AM",
   "topCities": [
-    {
-      "name": "Long Beach",
-      "count": 18
-    },
-    {
-      "name": "San Rafael",
-      "count": 12
-    },
-    {
-      "name": "Los Angeles",
-      "count": 11
-    },
-    {
-      "name": "Alameda",
-      "count": 7
-    },
     {
       "name": "Dixon",
       "count": 7
     },
     {
-      "name": "San Francisco",
-      "count": 6
-    },
-    {
-      "name": "Oakland",
-      "count": 5
-    },
-    {
-      "name": "Richmond",
-      "count": 5
-    },
-    {
-      "name": "Wilmington",
-      "count": 3
-    },
-    {
       "name": "Dana Point",
       "count": 2
+    },
+    {
+      "name": "Oxnard",
+      "count": 1
+    },
+    {
+      "name": "San Diego",
+      "count": 1
+    },
+    {
+      "name": "Oceanside and San Diego",
+      "count": 1
+    },
+    {
+      "name": "Ventura",
+      "count": 1
+    },
+    {
+      "name": "San Rafael",
+      "count": 1
+    },
+    {
+      "name": "SF Bay Area",
+      "count": 1
+    },
+    {
+      "name": "Southern CA",
+      "count": 1
     }
   ],
   "topJobs": [
     {
-      "title": "Project Manager",
-      "count": 8,
-      "payRange": "$100,000 - $150,000/yr"
+      "title": "Project Development/Management Intern",
+      "count": 2,
+      "payRange": "$22.00 - $27.00/hr"
     },
     {
-      "title": "Assistant Engineer [Mariner]",
-      "count": 5,
+      "title": "Aluminum Tig Welder",
+      "count": 1,
       "payRange": ""
     },
     {
-      "title": "Marine Electrical Technician",
-      "count": 4,
+      "title": "Concrete Finisher",
+      "count": 1,
+      "payRange": "$25.00 - $30.00/hr"
+    },
+    {
+      "title": "Contracts and Risk Management",
+      "count": 1,
       "payRange": ""
     },
     {
-      "title": "Quality Control Manager",
-      "count": 4,
+      "title": "Dock Installer",
+      "count": 1,
       "payRange": ""
     },
     {
-      "title": "Site Safety & Health Officer",
-      "count": 4,
-      "payRange": ""
+      "title": "Dock Installer - Oxnard/Ventura",
+      "count": 1,
+      "payRange": "$18.00 - $40.00/hr"
     },
     {
-      "title": "Operator",
-      "count": 4,
-      "payRange": ""
+      "title": "Dock Installer – San Diego/Dana Point . CA",
+      "count": 1,
+      "payRange": "$18.00 - $40.00/hr"
     },
     {
-      "title": "Captain",
-      "count": 4,
-      "payRange": ""
+      "title": "Electrician - Southern CA",
+      "count": 1,
+      "payRange": "$38.00 - $45.00/hr"
     },
     {
-      "title": "Pilebuck",
-      "count": 4,
-      "payRange": ""
+      "title": "Electrician - Ventura, CA",
+      "count": 1,
+      "payRange": "$38.00 - $45.00/hr"
     },
     {
-      "title": "Deck Engineer",
-      "count": 4,
-      "payRange": ""
-    },
-    {
-      "title": "Deckhand",
-      "count": 4,
-      "payRange": ""
+      "title": "Journeyman Electrician",
+      "count": 1,
+      "payRange": "$45.00 - $52.00/hr"
     }
   ],
   "topCompanies": [
     {
-      "name": "HME Construction",
-      "count": 32
-    },
-    {
-      "name": "Manson Construction",
-      "count": 31
-    },
-    {
-      "name": "Curtin Maritime",
-      "count": 27
-    },
-    {
       "name": "Bellingham Marine",
       "count": 23
-    },
-    {
-      "name": "SSA Marine",
-      "count": 20
-    },
-    {
-      "name": "Pasha Group",
-      "count": 18
-    },
-    {
-      "name": "Crowley Marine Services",
-      "count": 16
-    },
-    {
-      "name": "Sealaska",
-      "count": 13
-    },
-    {
-      "name": "Alstom",
-      "count": 12
-    },
-    {
-      "name": "Phillips 66",
-      "count": 11
     }
   ]
 }
