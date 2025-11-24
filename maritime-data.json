@@ -1,7 +1,7 @@
 {
-  "totalJobs": 291,
-  "californiaJobs": 116,
-  "lastUpdated": "November 18, 2025 at 01:43 AM",
+  "totalJobs": 292,
+  "californiaJobs": 115,
+  "lastUpdated": "November 24, 2025 at 07:11 AM",
   "topCities": [
     {
       "name": "Long Beach",
@@ -9,11 +9,15 @@
     },
     {
       "name": "Los Angeles",
-      "count": 11
+      "count": 10
     },
     {
       "name": "San Rafael",
-      "count": 10
+      "count": 9
+    },
+    {
+      "name": "Richmond",
+      "count": 7
     },
     {
       "name": "Dixon",
@@ -21,10 +25,6 @@
     },
     {
       "name": "San Francisco",
-      "count": 6
-    },
-    {
-      "name": "Richmond",
       "count": 6
     },
     {
@@ -36,11 +36,11 @@
       "count": 4
     },
     {
-      "name": "Oxnard",
+      "name": "Rodeo",
       "count": 3
     },
     {
-      "name": "Pacheco",
+      "name": "Oxnard",
       "count": 3
     }
   ],
@@ -61,6 +61,11 @@
       "payRange": ""
     },
     {
+      "title": "Construction Manager [Offshore]",
+      "count": 4,
+      "payRange": ""
+    },
+    {
       "title": "Deck Engineer",
       "count": 4,
       "payRange": ""
@@ -74,11 +79,6 @@
       "title": "Marine Electrical Technician",
       "count": 4,
       "payRange": ""
-    },
-    {
-      "title": "Marine Electrician",
-      "count": 4,
-      "payRange": "$27.31 - $50.00/hr"
     },
     {
       "title": "Operator",
@@ -107,34 +107,34 @@
     },
     {
       "name": "Curtin Maritime",
-      "count": 28
-    },
-    {
-      "name": "Bellingham Marine",
-      "count": 21
+      "count": 25
     },
     {
       "name": "SSA Marine",
+      "count": 21
+    },
+    {
+      "name": "Bellingham Marine",
       "count": 20
     },
     {
       "name": "Crowley Marine Services",
-      "count": 16
+      "count": 19
     },
     {
       "name": "Pasha Group",
-      "count": 16
+      "count": 17
+    },
+    {
+      "name": "Phillips 66",
+      "count": 14
     },
     {
       "name": "Alstom",
       "count": 13
     },
     {
-      "name": "Phillips 66",
-      "count": 11
-    },
-    {
-      "name": "Sealaska",
+      "name": "Nichols Brothers Boat Builders",
       "count": 11
     }
   ]
