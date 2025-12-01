@@ -1,11 +1,11 @@
 {
-  "totalJobs": 292,
-  "californiaJobs": 115,
-  "lastUpdated": "November 24, 2025 at 07:11 AM",
+  "totalJobs": 284,
+  "californiaJobs": 105,
+  "lastUpdated": "December 01, 2025 at 07:14 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 21
+      "count": 17
     },
     {
       "name": "Los Angeles",
@@ -16,42 +16,47 @@
       "count": 9
     },
     {
-      "name": "Richmond",
-      "count": 7
-    },
-    {
       "name": "Dixon",
       "count": 7
     },
     {
-      "name": "San Francisco",
+      "name": "Richmond",
       "count": 6
+    },
+    {
+      "name": "San Francisco",
+      "count": 5
     },
     {
       "name": "Alameda",
       "count": 5
     },
     {
-      "name": "Oakland",
-      "count": 4
-    },
-    {
-      "name": "Rodeo",
+      "name": "Livermore",
       "count": 3
     },
     {
-      "name": "Oxnard",
+      "name": "Oakland",
+      "count": 3
+    },
+    {
+      "name": "Pacheco",
       "count": 3
     }
   ],
   "topJobs": [
     {
       "title": "Project Manager",
-      "count": 8,
+      "count": 7,
       "payRange": "$100,000 - $150,000/yr"
     },
     {
       "title": "Assistant Engineer [Mariner]",
+      "count": 5,
+      "payRange": ""
+    },
+    {
+      "title": "Quality Control Manager",
       "count": 5,
       "payRange": ""
     },
@@ -89,11 +94,6 @@
       "title": "Pilebuck",
       "count": 4,
       "payRange": ""
-    },
-    {
-      "title": "Quality Control Manager",
-      "count": 4,
-      "payRange": ""
     }
   ],
   "topCompanies": [
@@ -103,14 +103,14 @@
     },
     {
       "name": "Manson Construction",
-      "count": 30
-    },
-    {
-      "name": "Curtin Maritime",
-      "count": 25
+      "count": 29
     },
     {
       "name": "SSA Marine",
+      "count": 23
+    },
+    {
+      "name": "Curtin Maritime",
       "count": 21
     },
     {
@@ -126,16 +126,16 @@
       "count": 17
     },
     {
-      "name": "Phillips 66",
-      "count": 14
-    },
-    {
       "name": "Alstom",
       "count": 13
     },
     {
       "name": "Nichols Brothers Boat Builders",
       "count": 11
+    },
+    {
+      "name": "Total Industries",
+      "count": 10
     }
   ]
 }
