@@ -1,19 +1,19 @@
 {
-  "totalJobs": 284,
-  "californiaJobs": 105,
-  "lastUpdated": "December 01, 2025 at 07:14 AM",
+  "totalJobs": 266,
+  "californiaJobs": 100,
+  "lastUpdated": "December 08, 2025 at 07:15 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 17
-    },
-    {
-      "name": "Los Angeles",
-      "count": 10
+      "count": 15
     },
     {
       "name": "San Rafael",
-      "count": 9
+      "count": 10
+    },
+    {
+      "name": "Los Angeles",
+      "count": 8
     },
     {
       "name": "Dixon",
@@ -21,7 +21,7 @@
     },
     {
       "name": "Richmond",
-      "count": 6
+      "count": 5
     },
     {
       "name": "San Francisco",
@@ -32,16 +32,16 @@
       "count": 5
     },
     {
-      "name": "Livermore",
-      "count": 3
-    },
-    {
       "name": "Oakland",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Pacheco",
       "count": 3
+    },
+    {
+      "name": "National City",
+      "count": 2
     }
   ],
   "topJobs": [
@@ -103,39 +103,39 @@
     },
     {
       "name": "Manson Construction",
-      "count": 29
+      "count": 26
     },
     {
       "name": "SSA Marine",
-      "count": 23
+      "count": 25
     },
     {
       "name": "Curtin Maritime",
-      "count": 21
+      "count": 22
     },
     {
       "name": "Bellingham Marine",
-      "count": 20
+      "count": 21
     },
     {
       "name": "Crowley Marine Services",
-      "count": 19
+      "count": 18
     },
     {
       "name": "Pasha Group",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Alstom",
-      "count": 13
-    },
-    {
-      "name": "Nichols Brothers Boat Builders",
       "count": 11
     },
     {
-      "name": "Total Industries",
+      "name": "Foss Maritime",
       "count": 10
+    },
+    {
+      "name": "Phillips 66",
+      "count": 9
     }
   ]
 }
