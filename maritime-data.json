@@ -1,34 +1,34 @@
 {
-  "totalJobs": 266,
-  "californiaJobs": 100,
-  "lastUpdated": "December 08, 2025 at 07:15 AM",
+  "totalJobs": 268,
+  "californiaJobs": 102,
+  "lastUpdated": "December 15, 2025 at 07:16 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 15
+      "count": 16
     },
     {
       "name": "San Rafael",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Los Angeles",
-      "count": 8
+      "count": 9
     },
     {
-      "name": "Dixon",
-      "count": 7
+      "name": "San Francisco",
+      "count": 6
+    },
+    {
+      "name": "Alameda",
+      "count": 6
     },
     {
       "name": "Richmond",
       "count": 5
     },
     {
-      "name": "San Francisco",
-      "count": 5
-    },
-    {
-      "name": "Alameda",
+      "name": "Dixon",
       "count": 5
     },
     {
@@ -40,7 +40,7 @@
       "count": 3
     },
     {
-      "name": "National City",
+      "name": "Chula Vista",
       "count": 2
     }
   ],
@@ -103,27 +103,31 @@
     },
     {
       "name": "Manson Construction",
-      "count": 26
-    },
-    {
-      "name": "SSA Marine",
-      "count": 25
+      "count": 28
     },
     {
       "name": "Curtin Maritime",
-      "count": 22
+      "count": 24
     },
     {
-      "name": "Bellingham Marine",
-      "count": 21
-    },
-    {
-      "name": "Crowley Marine Services",
-      "count": 18
+      "name": "SSA Marine",
+      "count": 23
     },
     {
       "name": "Pasha Group",
-      "count": 18
+      "count": 19
+    },
+    {
+      "name": "Bellingham Marine",
+      "count": 17
+    },
+    {
+      "name": "Crowley Marine Services",
+      "count": 16
+    },
+    {
+      "name": "Phillips 66",
+      "count": 12
     },
     {
       "name": "Alstom",
@@ -132,10 +136,6 @@
     {
       "name": "Foss Maritime",
       "count": 10
-    },
-    {
-      "name": "Phillips 66",
-      "count": 9
     }
   ]
 }
