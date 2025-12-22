@@ -1,7 +1,7 @@
 {
-  "totalJobs": 268,
-  "californiaJobs": 102,
-  "lastUpdated": "December 15, 2025 at 07:16 AM",
+  "totalJobs": 267,
+  "californiaJobs": 107,
+  "lastUpdated": "December 22, 2025 at 07:15 AM",
   "topCities": [
     {
       "name": "Long Beach",
@@ -9,22 +9,22 @@
     },
     {
       "name": "San Rafael",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Los Angeles",
-      "count": 9
+      "count": 7
     },
     {
-      "name": "San Francisco",
-      "count": 6
+      "name": "Northridge",
+      "count": 7
     },
     {
       "name": "Alameda",
       "count": 6
     },
     {
-      "name": "Richmond",
+      "name": "San Francisco",
       "count": 5
     },
     {
@@ -32,16 +32,16 @@
       "count": 5
     },
     {
-      "name": "Oakland",
+      "name": "Richmond",
       "count": 4
     },
     {
-      "name": "Pacheco",
-      "count": 3
+      "name": "National City",
+      "count": 4
     },
     {
-      "name": "Chula Vista",
-      "count": 2
+      "name": "Oakland",
+      "count": 3
     }
   ],
   "topJobs": [
@@ -56,11 +56,6 @@
       "payRange": ""
     },
     {
-      "title": "Quality Control Manager",
-      "count": 5,
-      "payRange": ""
-    },
-    {
       "title": "Captain",
       "count": 4,
       "payRange": ""
@@ -69,6 +64,11 @@
       "title": "Construction Manager [Offshore]",
       "count": 4,
       "payRange": ""
+    },
+    {
+      "title": "Crane Operator",
+      "count": 4,
+      "payRange": "$450 - $600/day"
     },
     {
       "title": "Deck Engineer",
@@ -103,18 +103,18 @@
     },
     {
       "name": "Manson Construction",
-      "count": 28
+      "count": 30
     },
     {
       "name": "Curtin Maritime",
       "count": 24
     },
     {
-      "name": "SSA Marine",
-      "count": 23
+      "name": "Pasha Group",
+      "count": 20
     },
     {
-      "name": "Pasha Group",
+      "name": "SSA Marine",
       "count": 19
     },
     {
@@ -126,16 +126,16 @@
       "count": 16
     },
     {
+      "name": "Foss Maritime",
+      "count": 10
+    },
+    {
       "name": "Phillips 66",
-      "count": 12
+      "count": 10
     },
     {
       "name": "Alstom",
-      "count": 11
-    },
-    {
-      "name": "Foss Maritime",
-      "count": 10
+      "count": 8
     }
   ]
 }
