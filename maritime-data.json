@@ -1,15 +1,15 @@
 {
-  "totalJobs": 261,
-  "californiaJobs": 109,
-  "lastUpdated": "December 29, 2025 at 07:17 AM",
+  "totalJobs": 262,
+  "californiaJobs": 110,
+  "lastUpdated": "January 05, 2026 at 07:20 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 16
+      "count": 17
     },
     {
       "name": "San Rafael",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Los Angeles",
@@ -32,16 +32,16 @@
       "count": 5
     },
     {
-      "name": "National City",
-      "count": 4
+      "name": "Dixon",
+      "count": 5
     },
     {
       "name": "Oakland",
-      "count": 4
+      "count": 5
     },
     {
-      "name": "Dixon",
-      "count": 3
+      "name": "National City",
+      "count": 4
     }
   ],
   "topJobs": [
@@ -56,6 +56,11 @@
       "payRange": ""
     },
     {
+      "title": "Crane Operator",
+      "count": 5,
+      "payRange": "$71,573 - $156,000/yr"
+    },
+    {
       "title": "Captain",
       "count": 4,
       "payRange": ""
@@ -64,11 +69,6 @@
       "title": "Construction Manager [Offshore]",
       "count": 4,
       "payRange": ""
-    },
-    {
-      "title": "Crane Operator",
-      "count": 4,
-      "payRange": "$450 - $600/day"
     },
     {
       "title": "Deck Engineer",
@@ -111,11 +111,11 @@
     },
     {
       "name": "SSA Marine",
-      "count": 23
+      "count": 20
     },
     {
       "name": "Pasha Group",
-      "count": 19
+      "count": 17
     },
     {
       "name": "Crowley Marine Services",
@@ -123,7 +123,7 @@
     },
     {
       "name": "Bellingham Marine",
-      "count": 15
+      "count": 14
     },
     {
       "name": "Foss Maritime",
