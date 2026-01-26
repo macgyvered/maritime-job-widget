@@ -1,35 +1,35 @@
 {
-  "totalJobs": 265,
-  "californiaJobs": 107,
-  "lastUpdated": "January 19, 2026 at 07:20 AM",
+  "totalJobs": 272,
+  "californiaJobs": 105,
+  "lastUpdated": "January 26, 2026 at 07:19 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 15
+      "count": 13
     },
     {
       "name": "San Rafael",
-      "count": 10
-    },
-    {
-      "name": "Los Angeles",
-      "count": 9
-    },
-    {
-      "name": "San Francisco",
-      "count": 7
+      "count": 12
     },
     {
       "name": "Dixon",
+      "count": 8
+    },
+    {
+      "name": "Los Angeles",
       "count": 7
+    },
+    {
+      "name": "Richmond",
+      "count": 6
+    },
+    {
+      "name": "San Francisco",
+      "count": 6
     },
     {
       "name": "Alameda",
       "count": 6
-    },
-    {
-      "name": "Richmond",
-      "count": 5
     },
     {
       "name": "Northridge",
@@ -41,7 +41,7 @@
     },
     {
       "name": "National City",
-      "count": 4
+      "count": 3
     }
   ],
   "topJobs": [
@@ -56,11 +56,6 @@
       "payRange": ""
     },
     {
-      "title": "Crane Operator",
-      "count": 5,
-      "payRange": "$71,573 - $156,000/yr"
-    },
-    {
       "title": "Captain",
       "count": 4,
       "payRange": ""
@@ -69,6 +64,11 @@
       "title": "Construction Manager [Offshore]",
       "count": 4,
       "payRange": ""
+    },
+    {
+      "title": "Crane Operator",
+      "count": 4,
+      "payRange": "$71,573 - $156,000/yr"
     },
     {
       "title": "Deck Engineer",
@@ -102,11 +102,15 @@
       "count": 32
     },
     {
-      "name": "Manson Construction",
-      "count": 28
+      "name": "Curtin Maritime",
+      "count": 27
     },
     {
-      "name": "Curtin Maritime",
+      "name": "Crowley Marine Services",
+      "count": 26
+    },
+    {
+      "name": "Manson Construction",
       "count": 24
     },
     {
@@ -114,28 +118,24 @@
       "count": 22
     },
     {
-      "name": "Crowley Marine Services",
-      "count": 21
-    },
-    {
       "name": "Pasha Group",
-      "count": 17
+      "count": 19
     },
     {
       "name": "Bellingham Marine",
-      "count": 14
+      "count": 13
+    },
+    {
+      "name": "Sealaska",
+      "count": 13
     },
     {
       "name": "Foss Maritime",
       "count": 10
     },
     {
-      "name": "Alstom",
-      "count": 10
-    },
-    {
       "name": "Phillips 66",
-      "count": 9
+      "count": 10
     }
   ]
 }
