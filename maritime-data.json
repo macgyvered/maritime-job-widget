@@ -1,7 +1,7 @@
 {
-  "totalJobs": 260,
-  "californiaJobs": 98,
-  "lastUpdated": "February 02, 2026 at 07:42 AM",
+  "totalJobs": 249,
+  "californiaJobs": 92,
+  "lastUpdated": "February 09, 2026 at 07:46 AM",
   "topCities": [
     {
       "name": "Long Beach",
@@ -16,14 +16,6 @@
       "count": 8
     },
     {
-      "name": "Los Angeles",
-      "count": 7
-    },
-    {
-      "name": "San Francisco",
-      "count": 6
-    },
-    {
       "name": "Alameda",
       "count": 6
     },
@@ -32,15 +24,23 @@
       "count": 5
     },
     {
-      "name": "Oakland",
-      "count": 4
+      "name": "San Francisco",
+      "count": 5
+    },
+    {
+      "name": "Los Angeles",
+      "count": 5
+    },
+    {
+      "name": "National City",
+      "count": 3
     },
     {
       "name": "Signal Hill",
-      "count": 4
+      "count": 3
     },
     {
-      "name": "Chula Vista",
+      "name": "Oakland",
       "count": 3
     }
   ],
@@ -66,11 +66,6 @@
       "payRange": ""
     },
     {
-      "title": "Crane Operator",
-      "count": 4,
-      "payRange": "$71,573 - $156,000/yr"
-    },
-    {
       "title": "Deck Engineer",
       "count": 4,
       "payRange": ""
@@ -94,6 +89,11 @@
       "title": "Pilebuck",
       "count": 4,
       "payRange": ""
+    },
+    {
+      "title": "Quality Control Manager",
+      "count": 4,
+      "payRange": ""
     }
   ],
   "topCompanies": [
@@ -102,20 +102,20 @@
       "count": 32
     },
     {
-      "name": "Crowley Marine Services",
+      "name": "Curtin Maritime",
       "count": 27
     },
     {
-      "name": "Curtin Maritime",
-      "count": 26
-    },
-    {
-      "name": "Manson Construction",
-      "count": 23
+      "name": "Crowley Marine Services",
+      "count": 25
     },
     {
       "name": "SSA Marine",
-      "count": 23
+      "count": 25
+    },
+    {
+      "name": "Manson Construction",
+      "count": 19
     },
     {
       "name": "Pasha Group",
@@ -123,18 +123,18 @@
     },
     {
       "name": "Bellingham Marine",
-      "count": 14
+      "count": 12
     },
     {
       "name": "Sealaska",
-      "count": 14
-    },
-    {
-      "name": "Phillips 66",
       "count": 12
     },
     {
       "name": "Foss Maritime",
+      "count": 10
+    },
+    {
+      "name": "Phillips 66",
       "count": 10
     }
   ]
