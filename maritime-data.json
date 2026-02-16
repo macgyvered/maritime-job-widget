@@ -1,7 +1,7 @@
 {
-  "totalJobs": 249,
-  "californiaJobs": 92,
-  "lastUpdated": "February 09, 2026 at 07:46 AM",
+  "totalJobs": 257,
+  "californiaJobs": 95,
+  "lastUpdated": "February 16, 2026 at 07:44 AM",
   "topCities": [
     {
       "name": "Long Beach",
@@ -9,19 +9,19 @@
     },
     {
       "name": "San Rafael",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Dixon",
       "count": 8
     },
     {
-      "name": "Alameda",
+      "name": "Richmond",
       "count": 6
     },
     {
-      "name": "Richmond",
-      "count": 5
+      "name": "Alameda",
+      "count": 6
     },
     {
       "name": "San Francisco",
@@ -32,15 +32,15 @@
       "count": 5
     },
     {
-      "name": "National City",
-      "count": 3
-    },
-    {
       "name": "Signal Hill",
       "count": 3
     },
     {
       "name": "Oakland",
+      "count": 3
+    },
+    {
+      "name": "San Diego",
       "count": 3
     }
   ],
@@ -102,28 +102,28 @@
       "count": 32
     },
     {
+      "name": "Crowley Marine Services",
+      "count": 29
+    },
+    {
       "name": "Curtin Maritime",
       "count": 27
     },
     {
-      "name": "Crowley Marine Services",
-      "count": 25
-    },
-    {
       "name": "SSA Marine",
-      "count": 25
-    },
-    {
-      "name": "Manson Construction",
-      "count": 19
+      "count": 23
     },
     {
       "name": "Pasha Group",
       "count": 17
     },
     {
+      "name": "Manson Construction",
+      "count": 17
+    },
+    {
       "name": "Bellingham Marine",
-      "count": 12
+      "count": 16
     },
     {
       "name": "Sealaska",
@@ -135,7 +135,7 @@
     },
     {
       "name": "Phillips 66",
-      "count": 10
+      "count": 9
     }
   ]
 }
