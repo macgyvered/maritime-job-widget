@@ -1,7 +1,7 @@
 {
-  "totalJobs": 257,
-  "californiaJobs": 95,
-  "lastUpdated": "February 16, 2026 at 07:44 AM",
+  "totalJobs": 248,
+  "californiaJobs": 86,
+  "lastUpdated": "February 23, 2026 at 07:45 AM",
   "topCities": [
     {
       "name": "Long Beach",
@@ -9,38 +9,38 @@
     },
     {
       "name": "San Rafael",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Dixon",
-      "count": 8
-    },
-    {
-      "name": "Richmond",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Alameda",
       "count": 6
     },
     {
+      "name": "Richmond",
+      "count": 5
+    },
+    {
       "name": "San Francisco",
       "count": 5
     },
     {
-      "name": "Los Angeles",
-      "count": 5
+      "name": "Signal Hill",
+      "count": 4
     },
     {
-      "name": "Signal Hill",
+      "name": "Compton",
+      "count": 3
+    },
+    {
+      "name": "Benicia",
       "count": 3
     },
     {
       "name": "Oakland",
-      "count": 3
-    },
-    {
-      "name": "San Diego",
       "count": 3
     }
   ],
@@ -48,7 +48,7 @@
     {
       "title": "Project Manager",
       "count": 7,
-      "payRange": "$100,000 - $150,000/yr"
+      "payRange": "$40.00 - $50.00/hr"
     },
     {
       "title": "Assistant Engineer [Mariner]",
@@ -76,6 +76,11 @@
       "payRange": ""
     },
     {
+      "title": "Dockhand",
+      "count": 4,
+      "payRange": "$14.00 - $16.00/hr"
+    },
+    {
       "title": "Marine Electrical Technician",
       "count": 4,
       "payRange": ""
@@ -89,11 +94,6 @@
       "title": "Pilebuck",
       "count": 4,
       "payRange": ""
-    },
-    {
-      "title": "Quality Control Manager",
-      "count": 4,
-      "payRange": ""
     }
   ],
   "topCompanies": [
@@ -103,7 +103,7 @@
     },
     {
       "name": "Crowley Marine Services",
-      "count": 29
+      "count": 28
     },
     {
       "name": "Curtin Maritime",
@@ -111,23 +111,23 @@
     },
     {
       "name": "SSA Marine",
-      "count": 23
+      "count": 26
     },
     {
       "name": "Pasha Group",
-      "count": 17
-    },
-    {
-      "name": "Manson Construction",
-      "count": 17
-    },
-    {
-      "name": "Bellingham Marine",
       "count": 16
     },
     {
+      "name": "Bellingham Marine",
+      "count": 15
+    },
+    {
+      "name": "Manson Construction",
+      "count": 14
+    },
+    {
       "name": "Sealaska",
-      "count": 12
+      "count": 14
     },
     {
       "name": "Foss Maritime",
