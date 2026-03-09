@@ -1,14 +1,18 @@
 {
-  "totalJobs": 254,
-  "californiaJobs": 96,
-  "lastUpdated": "March 02, 2026 at 07:41 AM",
+  "totalJobs": 256,
+  "californiaJobs": 95,
+  "lastUpdated": "March 09, 2026 at 07:42 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 11
+      "count": 14
     },
     {
       "name": "San Rafael",
+      "count": 10
+    },
+    {
+      "name": "Alameda",
       "count": 8
     },
     {
@@ -16,44 +20,40 @@
       "count": 7
     },
     {
-      "name": "Alameda",
-      "count": 7
-    },
-    {
       "name": "San Francisco",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Oakland",
       "count": 5
     },
     {
-      "name": "Richmond",
-      "count": 4
+      "name": "Chula Vista",
+      "count": 5
     },
     {
       "name": "Signal Hill",
       "count": 4
     },
     {
-      "name": "Chula Vista",
-      "count": 4
+      "name": "Benicia",
+      "count": 3
     },
     {
-      "name": "Rodeo",
+      "name": "Richmond",
       "count": 3
     }
   ],
   "topJobs": [
     {
-      "title": "Project Manager",
-      "count": 6,
-      "payRange": "$40.00 - $50.00/hr"
-    },
-    {
       "title": "Assistant Engineer [Mariner]",
       "count": 5,
       "payRange": ""
+    },
+    {
+      "title": "Project Manager",
+      "count": 5,
+      "payRange": "$40.00 - $50.00/hr"
     },
     {
       "title": "Captain",
@@ -102,24 +102,24 @@
       "count": 32
     },
     {
+      "name": "SSA Marine",
+      "count": 29
+    },
+    {
       "name": "Crowley Marine Services",
       "count": 27
     },
     {
       "name": "Curtin Maritime",
-      "count": 26
-    },
-    {
-      "name": "SSA Marine",
-      "count": 22
+      "count": 27
     },
     {
       "name": "Bellingham Marine",
-      "count": 18
+      "count": 19
     },
     {
       "name": "Manson Construction",
-      "count": 15
+      "count": 13
     },
     {
       "name": "Sealaska",
@@ -130,12 +130,12 @@
       "count": 12
     },
     {
-      "name": "Phillips 66",
-      "count": 11
-    },
-    {
       "name": "Foss Maritime",
       "count": 10
+    },
+    {
+      "name": "Golden Gate Bridge Highway & Transportation District",
+      "count": 9
     }
   ]
 }
