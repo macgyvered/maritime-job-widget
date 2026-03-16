@@ -1,11 +1,11 @@
 {
-  "totalJobs": 256,
-  "californiaJobs": 95,
-  "lastUpdated": "March 09, 2026 at 07:42 AM",
+  "totalJobs": 250,
+  "californiaJobs": 92,
+  "lastUpdated": "March 16, 2026 at 08:00 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 14
+      "count": 12
     },
     {
       "name": "San Rafael",
@@ -16,44 +16,44 @@
       "count": 8
     },
     {
+      "name": "San Francisco",
+      "count": 7
+    },
+    {
       "name": "Dixon",
       "count": 7
     },
     {
-      "name": "San Francisco",
-      "count": 5
-    },
-    {
-      "name": "Oakland",
-      "count": 5
-    },
-    {
       "name": "Chula Vista",
-      "count": 5
+      "count": 6
     },
     {
-      "name": "Signal Hill",
+      "name": "Concord",
       "count": 4
     },
     {
-      "name": "Benicia",
-      "count": 3
+      "name": "Oakland",
+      "count": 4
     },
     {
       "name": "Richmond",
+      "count": 3
+    },
+    {
+      "name": "Los Angeles",
       "count": 3
     }
   ],
   "topJobs": [
     {
+      "title": "Project Manager",
+      "count": 6,
+      "payRange": "$40.00 - $50.00/hr"
+    },
+    {
       "title": "Assistant Engineer [Mariner]",
       "count": 5,
       "payRange": ""
-    },
-    {
-      "title": "Project Manager",
-      "count": 5,
-      "payRange": "$40.00 - $50.00/hr"
     },
     {
       "title": "Captain",
@@ -107,27 +107,27 @@
     },
     {
       "name": "Crowley Marine Services",
-      "count": 27
-    },
-    {
-      "name": "Curtin Maritime",
-      "count": 27
+      "count": 28
     },
     {
       "name": "Bellingham Marine",
-      "count": 19
+      "count": 21
+    },
+    {
+      "name": "Curtin Maritime",
+      "count": 18
+    },
+    {
+      "name": "Pasha Group",
+      "count": 13
     },
     {
       "name": "Manson Construction",
       "count": 13
     },
     {
-      "name": "Sealaska",
-      "count": 13
-    },
-    {
-      "name": "Pasha Group",
-      "count": 12
+      "name": "Phillips 66",
+      "count": 11
     },
     {
       "name": "Foss Maritime",
