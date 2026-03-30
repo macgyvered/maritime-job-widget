@@ -1,26 +1,26 @@
 {
-  "totalJobs": 241,
+  "totalJobs": 235,
   "californiaJobs": 84,
-  "lastUpdated": "March 23, 2026 at 07:54 AM",
+  "lastUpdated": "March 30, 2026 at 08:14 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 12
+      "count": 10
+    },
+    {
+      "name": "San Francisco",
+      "count": 8
     },
     {
       "name": "Alameda",
       "count": 8
     },
     {
-      "name": "San Rafael",
-      "count": 7
-    },
-    {
-      "name": "San Francisco",
+      "name": "Chula Vista",
       "count": 6
     },
     {
-      "name": "Dixon",
+      "name": "San Rafael",
       "count": 6
     },
     {
@@ -28,19 +28,19 @@
       "count": 6
     },
     {
-      "name": "Chula Vista",
+      "name": "Dixon",
       "count": 5
     },
     {
       "name": "Los Angeles",
-      "count": 3
-    },
-    {
-      "name": "National City",
-      "count": 2
+      "count": 4
     },
     {
       "name": "San Diego",
+      "count": 3
+    },
+    {
+      "name": "Rodeo",
       "count": 2
     }
   ],
@@ -103,7 +103,7 @@
     },
     {
       "name": "SSA Marine",
-      "count": 31
+      "count": 29
     },
     {
       "name": "Crowley Marine Services",
@@ -111,31 +111,31 @@
     },
     {
       "name": "Bellingham Marine",
-      "count": 20
+      "count": 17
     },
     {
       "name": "Curtin Maritime",
-      "count": 18
+      "count": 17
+    },
+    {
+      "name": "Phillips 66",
+      "count": 11
     },
     {
       "name": "Manson Construction",
       "count": 11
     },
     {
-      "name": "Pasha Group",
-      "count": 10
-    },
-    {
       "name": "Foss Maritime",
       "count": 10
     },
     {
-      "name": "Phillips 66",
-      "count": 9
+      "name": "Golden Gate Bridge Highway & Transportation District",
+      "count": 8
     },
     {
-      "name": "Sealaska",
-      "count": 9
+      "name": "Alstom",
+      "count": 8
     }
   ]
 }
