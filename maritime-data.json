@@ -1,42 +1,42 @@
 {
-  "totalJobs": 226,
-  "californiaJobs": 83,
-  "lastUpdated": "April 06, 2026 at 08:15 AM",
+  "totalJobs": 230,
+  "californiaJobs": 87,
+  "lastUpdated": "April 13, 2026 at 08:56 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 13
-    },
-    {
-      "name": "Alameda",
-      "count": 8
+      "count": 14
     },
     {
       "name": "San Francisco",
       "count": 7
     },
     {
-      "name": "San Rafael",
+      "name": "Alameda",
+      "count": 7
+    },
+    {
+      "name": "Los Angeles",
       "count": 6
     },
     {
       "name": "Oakland",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Chula Vista",
-      "count": 4
+      "count": 5
     },
     {
-      "name": "Los Angeles",
+      "name": "San Diego",
+      "count": 5
+    },
+    {
+      "name": "San Rafael",
       "count": 4
     },
     {
       "name": "Dixon",
-      "count": 4
-    },
-    {
-      "name": "San Diego",
       "count": 3
     },
     {
@@ -47,8 +47,13 @@
   "topJobs": [
     {
       "title": "Project Manager",
-      "count": 7,
-      "payRange": "$40.00 - $50.00/hr"
+      "count": 8,
+      "payRange": "$83,200 - $104,000/yr"
+    },
+    {
+      "title": "Assistant Engineer [Mariner]",
+      "count": 5,
+      "payRange": ""
     },
     {
       "title": "Captain",
@@ -89,11 +94,6 @@
       "title": "Quality Control Manager",
       "count": 4,
       "payRange": ""
-    },
-    {
-      "title": "Site Safety & Health Officer",
-      "count": 4,
-      "payRange": ""
     }
   ],
   "topCompanies": [
@@ -103,15 +103,15 @@
     },
     {
       "name": "SSA Marine",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Crowley Marine Services",
-      "count": 23
+      "count": 22
     },
     {
       "name": "Curtin Maritime",
-      "count": 19
+      "count": 18
     },
     {
       "name": "Bellingham Marine",
@@ -119,23 +119,23 @@
     },
     {
       "name": "Manson Construction",
+      "count": 13
+    },
+    {
+      "name": "Phillips 66",
       "count": 12
     },
     {
       "name": "Foss Maritime",
-      "count": 10
-    },
-    {
-      "name": "Phillips 66",
       "count": 9
     },
     {
-      "name": "Golden Gate Bridge Highway & Transportation District",
-      "count": 8
+      "name": "Alstom",
+      "count": 9
     },
     {
       "name": "Sealaska",
-      "count": 8
+      "count": 9
     }
   ]
 }
