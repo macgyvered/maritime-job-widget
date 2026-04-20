@@ -1,22 +1,22 @@
 {
-  "totalJobs": 230,
-  "californiaJobs": 87,
-  "lastUpdated": "April 13, 2026 at 08:56 AM",
+  "totalJobs": 211,
+  "californiaJobs": 92,
+  "lastUpdated": "April 20, 2026 at 09:02 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 14
+      "count": 13
+    },
+    {
+      "name": "Alameda",
+      "count": 8
     },
     {
       "name": "San Francisco",
       "count": 7
     },
     {
-      "name": "Alameda",
-      "count": 7
-    },
-    {
-      "name": "Los Angeles",
+      "name": "Dixon",
       "count": 6
     },
     {
@@ -24,20 +24,20 @@
       "count": 6
     },
     {
+      "name": "San Diego",
+      "count": 6
+    },
+    {
       "name": "Chula Vista",
       "count": 5
     },
     {
-      "name": "San Diego",
+      "name": "San Rafael",
       "count": 5
     },
     {
-      "name": "San Rafael",
-      "count": 4
-    },
-    {
-      "name": "Dixon",
-      "count": 3
+      "name": "Los Angeles",
+      "count": 5
     },
     {
       "name": "National City",
@@ -47,21 +47,11 @@
   "topJobs": [
     {
       "title": "Project Manager",
-      "count": 8,
-      "payRange": "$83,200 - $104,000/yr"
-    },
-    {
-      "title": "Assistant Engineer [Mariner]",
-      "count": 5,
-      "payRange": ""
+      "count": 7,
+      "payRange": "$40.00 - $50.00/hr"
     },
     {
       "title": "Captain",
-      "count": 4,
-      "payRange": ""
-    },
-    {
-      "title": "Construction Manager [Offshore]",
       "count": 4,
       "payRange": ""
     },
@@ -94,6 +84,16 @@
       "title": "Quality Control Manager",
       "count": 4,
       "payRange": ""
+    },
+    {
+      "title": "Site Safety & Health Officer",
+      "count": 4,
+      "payRange": ""
+    },
+    {
+      "title": "Superintendent",
+      "count": 4,
+      "payRange": ""
     }
   ],
   "topCompanies": [
@@ -106,16 +106,12 @@
       "count": 26
     },
     {
-      "name": "Crowley Marine Services",
-      "count": 22
+      "name": "Bellingham Marine",
+      "count": 20
     },
     {
       "name": "Curtin Maritime",
       "count": 18
-    },
-    {
-      "name": "Bellingham Marine",
-      "count": 17
     },
     {
       "name": "Manson Construction",
@@ -130,12 +126,16 @@
       "count": 9
     },
     {
-      "name": "Alstom",
+      "name": "Sealaska",
       "count": 9
     },
     {
-      "name": "Sealaska",
-      "count": 9
+      "name": "Total Industries",
+      "count": 8
+    },
+    {
+      "name": "Golden Gate Bridge Highway & Transportation District",
+      "count": 8
     }
   ]
 }
