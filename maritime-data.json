@@ -1,7 +1,7 @@
 {
-  "totalJobs": 211,
-  "californiaJobs": 92,
-  "lastUpdated": "April 20, 2026 at 09:02 AM",
+  "totalJobs": 218,
+  "californiaJobs": 106,
+  "lastUpdated": "April 27, 2026 at 09:11 AM",
   "topCities": [
     {
       "name": "Long Beach",
@@ -9,11 +9,19 @@
     },
     {
       "name": "Alameda",
-      "count": 8
+      "count": 9
     },
     {
       "name": "San Francisco",
       "count": 7
+    },
+    {
+      "name": "Chula Vista",
+      "count": 6
+    },
+    {
+      "name": "Los Angeles",
+      "count": 6
     },
     {
       "name": "Dixon",
@@ -24,24 +32,16 @@
       "count": 6
     },
     {
-      "name": "San Diego",
-      "count": 6
-    },
-    {
-      "name": "Chula Vista",
-      "count": 5
-    },
-    {
       "name": "San Rafael",
       "count": 5
     },
     {
-      "name": "Los Angeles",
+      "name": "San Diego",
       "count": 5
     },
     {
-      "name": "National City",
-      "count": 2
+      "name": "Concord",
+      "count": 4
     }
   ],
   "topJobs": [
@@ -52,7 +52,7 @@
     },
     {
       "title": "Captain",
-      "count": 4,
+      "count": 5,
       "payRange": ""
     },
     {
@@ -107,35 +107,35 @@
     },
     {
       "name": "Bellingham Marine",
-      "count": 20
-    },
-    {
-      "name": "Curtin Maritime",
       "count": 18
     },
     {
-      "name": "Manson Construction",
-      "count": 13
+      "name": "Curtin Maritime",
+      "count": 17
     },
     {
       "name": "Phillips 66",
+      "count": 16
+    },
+    {
+      "name": "Manson Construction",
+      "count": 12
+    },
+    {
+      "name": "Sealaska",
       "count": 12
     },
     {
       "name": "Foss Maritime",
+      "count": 10
+    },
+    {
+      "name": "Alstom",
+      "count": 10
+    },
+    {
+      "name": "Tradesmen Marine",
       "count": 9
-    },
-    {
-      "name": "Sealaska",
-      "count": 9
-    },
-    {
-      "name": "Total Industries",
-      "count": 8
-    },
-    {
-      "name": "Golden Gate Bridge Highway & Transportation District",
-      "count": 8
     }
   ]
 }
