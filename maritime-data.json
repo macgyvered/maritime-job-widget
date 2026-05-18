@@ -1,15 +1,23 @@
 {
-  "totalJobs": 218,
-  "californiaJobs": 106,
-  "lastUpdated": "May 04, 2026 at 09:10 AM",
+  "totalJobs": 228,
+  "californiaJobs": 109,
+  "lastUpdated": "May 18, 2026 at 10:53 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 13
+      "count": 18
     },
     {
       "name": "Alameda",
-      "count": 9
+      "count": 10
+    },
+    {
+      "name": "Dixon",
+      "count": 8
+    },
+    {
+      "name": "San Rafael",
+      "count": 7
     },
     {
       "name": "San Francisco",
@@ -24,31 +32,23 @@
       "count": 6
     },
     {
-      "name": "Dixon",
-      "count": 6
-    },
-    {
-      "name": "Oakland",
-      "count": 6
-    },
-    {
-      "name": "San Rafael",
+      "name": "Wilmington",
       "count": 5
     },
     {
       "name": "San Diego",
-      "count": 5
+      "count": 4
     },
     {
-      "name": "Concord",
-      "count": 4
+      "name": "Oakland",
+      "count": 3
     }
   ],
   "topJobs": [
     {
       "title": "Project Manager",
-      "count": 7,
-      "payRange": "$40.00 - $50.00/hr"
+      "count": 8,
+      "payRange": "$40.00 - $110000.00/hr"
     },
     {
       "title": "Captain",
@@ -76,11 +76,6 @@
       "payRange": ""
     },
     {
-      "title": "Port Captain",
-      "count": 4,
-      "payRange": ""
-    },
-    {
       "title": "Quality Control Manager",
       "count": 4,
       "payRange": ""
@@ -94,6 +89,11 @@
       "title": "Superintendent",
       "count": 4,
       "payRange": ""
+    },
+    {
+      "title": "Carpenter",
+      "count": 3,
+      "payRange": "$29.00 - $32.00/hr"
     }
   ],
   "topCompanies": [
@@ -103,38 +103,38 @@
     },
     {
       "name": "SSA Marine",
-      "count": 26
+      "count": 24
     },
     {
       "name": "Bellingham Marine",
-      "count": 18
+      "count": 20
     },
     {
       "name": "Curtin Maritime",
-      "count": 17
-    },
-    {
-      "name": "Phillips 66",
-      "count": 16
+      "count": 20
     },
     {
       "name": "Manson Construction",
-      "count": 12
+      "count": 14
     },
     {
       "name": "Sealaska",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Foss Maritime",
       "count": 10
     },
     {
-      "name": "Alstom",
-      "count": 10
+      "name": "Phillips 66",
+      "count": 9
     },
     {
-      "name": "Tradesmen Marine",
+      "name": "Alstom",
+      "count": 9
+    },
+    {
+      "name": "Bay Ship & Yacht",
       "count": 9
     }
   ]
