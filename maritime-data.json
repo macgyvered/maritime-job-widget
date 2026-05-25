@@ -1,11 +1,11 @@
 {
-  "totalJobs": 228,
-  "californiaJobs": 109,
-  "lastUpdated": "May 18, 2026 at 10:53 AM",
+  "totalJobs": 225,
+  "californiaJobs": 113,
+  "lastUpdated": "May 25, 2026 at 11:01 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 18
+      "count": 16
     },
     {
       "name": "Alameda",
@@ -16,11 +16,11 @@
       "count": 8
     },
     {
-      "name": "San Rafael",
+      "name": "San Francisco",
       "count": 7
     },
     {
-      "name": "San Francisco",
+      "name": "Los Angeles",
       "count": 7
     },
     {
@@ -28,20 +28,20 @@
       "count": 6
     },
     {
-      "name": "Los Angeles",
-      "count": 6
-    },
-    {
       "name": "Wilmington",
       "count": 5
     },
     {
-      "name": "San Diego",
+      "name": "San Rafael",
       "count": 4
     },
     {
-      "name": "Oakland",
-      "count": 3
+      "name": "Signal Hill",
+      "count": 4
+    },
+    {
+      "name": "San Diego",
+      "count": 4
     }
   ],
   "topJobs": [
@@ -52,7 +52,7 @@
     },
     {
       "title": "Captain",
-      "count": 5,
+      "count": 4,
       "payRange": ""
     },
     {
@@ -93,7 +93,7 @@
     {
       "title": "Carpenter",
       "count": 3,
-      "payRange": "$29.00 - $32.00/hr"
+      "payRange": "$32.00 - $32.00/hr"
     }
   ],
   "topCompanies": [
@@ -107,35 +107,35 @@
     },
     {
       "name": "Bellingham Marine",
-      "count": 20
+      "count": 19
     },
     {
       "name": "Curtin Maritime",
-      "count": 20
+      "count": 18
     },
     {
       "name": "Manson Construction",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Sealaska",
-      "count": 13
+      "count": 14
+    },
+    {
+      "name": "Phillips 66",
+      "count": 11
     },
     {
       "name": "Foss Maritime",
       "count": 10
     },
     {
-      "name": "Phillips 66",
-      "count": 9
-    },
-    {
       "name": "Alstom",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Bay Ship & Yacht",
-      "count": 9
+      "count": 10
     }
   ]
 }
