@@ -1,7 +1,7 @@
 {
-  "totalJobs": 225,
-  "californiaJobs": 113,
-  "lastUpdated": "May 25, 2026 at 11:01 AM",
+  "totalJobs": 219,
+  "californiaJobs": 106,
+  "lastUpdated": "June 01, 2026 at 12:27 PM",
   "topCities": [
     {
       "name": "Long Beach",
@@ -9,26 +9,26 @@
     },
     {
       "name": "Alameda",
-      "count": 10
-    },
-    {
-      "name": "Dixon",
-      "count": 8
-    },
-    {
-      "name": "San Francisco",
-      "count": 7
+      "count": 11
     },
     {
       "name": "Los Angeles",
-      "count": 7
+      "count": 10
     },
     {
       "name": "Chula Vista",
-      "count": 6
+      "count": 7
     },
     {
-      "name": "Wilmington",
+      "name": "Dixon",
+      "count": 7
+    },
+    {
+      "name": "San Francisco",
+      "count": 5
+    },
+    {
+      "name": "Signal Hill",
       "count": 5
     },
     {
@@ -36,11 +36,11 @@
       "count": 4
     },
     {
-      "name": "Signal Hill",
+      "name": "Oakland",
       "count": 4
     },
     {
-      "name": "San Diego",
+      "name": "Wilmington",
       "count": 4
     }
   ],
@@ -86,14 +86,14 @@
       "payRange": ""
     },
     {
-      "title": "Superintendent",
-      "count": 4,
-      "payRange": ""
-    },
-    {
       "title": "Carpenter",
       "count": 3,
-      "payRange": "$32.00 - $32.00/hr"
+      "payRange": "$28.00 - $40.00/hr"
+    },
+    {
+      "title": "Composite Mechanic",
+      "count": 3,
+      "payRange": "$28.68 - $28.68/hr"
     }
   ],
   "topCompanies": [
@@ -106,36 +106,36 @@
       "count": 24
     },
     {
-      "name": "Bellingham Marine",
-      "count": 19
-    },
-    {
       "name": "Curtin Maritime",
       "count": 18
     },
     {
       "name": "Manson Construction",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Sealaska",
-      "count": 14
+      "count": 15
     },
     {
-      "name": "Phillips 66",
-      "count": 11
+      "name": "Bellingham Marine",
+      "count": 15
+    },
+    {
+      "name": "Alstom",
+      "count": 12
     },
     {
       "name": "Foss Maritime",
       "count": 10
     },
     {
-      "name": "Alstom",
+      "name": "Bay Ship & Yacht",
       "count": 10
     },
     {
-      "name": "Bay Ship & Yacht",
-      "count": 10
+      "name": "Phillips 66",
+      "count": 8
     }
   ]
 }
