@@ -1,27 +1,31 @@
 {
-  "totalJobs": 219,
-  "californiaJobs": 106,
-  "lastUpdated": "June 01, 2026 at 12:27 PM",
+  "totalJobs": 222,
+  "californiaJobs": 105,
+  "lastUpdated": "June 08, 2026 at 11:47 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 16
+      "count": 14
     },
     {
       "name": "Alameda",
-      "count": 11
-    },
-    {
-      "name": "Los Angeles",
       "count": 10
     },
     {
+      "name": "Los Angeles",
+      "count": 9
+    },
+    {
       "name": "Chula Vista",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Dixon",
       "count": 7
+    },
+    {
+      "name": "Oakland",
+      "count": 6
     },
     {
       "name": "San Francisco",
@@ -36,12 +40,8 @@
       "count": 4
     },
     {
-      "name": "Oakland",
-      "count": 4
-    },
-    {
       "name": "Wilmington",
-      "count": 4
+      "count": 3
     }
   ],
   "topJobs": [
@@ -86,14 +86,14 @@
       "payRange": ""
     },
     {
-      "title": "Carpenter",
-      "count": 3,
-      "payRange": "$28.00 - $40.00/hr"
-    },
-    {
       "title": "Composite Mechanic",
       "count": 3,
       "payRange": "$28.68 - $28.68/hr"
+    },
+    {
+      "title": "Construction Project Manager",
+      "count": 3,
+      "payRange": ""
     }
   ],
   "topCompanies": [
@@ -103,27 +103,27 @@
     },
     {
       "name": "SSA Marine",
-      "count": 24
+      "count": 27
     },
     {
       "name": "Curtin Maritime",
       "count": 18
     },
     {
-      "name": "Manson Construction",
-      "count": 16
-    },
-    {
       "name": "Sealaska",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Bellingham Marine",
-      "count": 15
+      "count": 16
+    },
+    {
+      "name": "Phillips 66",
+      "count": 14
     },
     {
       "name": "Alstom",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Foss Maritime",
@@ -134,8 +134,8 @@
       "count": 10
     },
     {
-      "name": "Phillips 66",
-      "count": 8
+      "name": "Tradesmen Marine",
+      "count": 9
     }
   ]
 }
