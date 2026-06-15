@@ -1,26 +1,18 @@
 {
-  "totalJobs": 222,
-  "californiaJobs": 105,
-  "lastUpdated": "June 08, 2026 at 11:47 AM",
+  "totalJobs": 209,
+  "californiaJobs": 91,
+  "lastUpdated": "June 15, 2026 at 12:54 PM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Alameda",
       "count": 10
     },
     {
-      "name": "Los Angeles",
-      "count": 9
-    },
-    {
       "name": "Chula Vista",
-      "count": 8
-    },
-    {
-      "name": "Dixon",
       "count": 7
     },
     {
@@ -32,11 +24,19 @@
       "count": 5
     },
     {
+      "name": "Dixon",
+      "count": 5
+    },
+    {
       "name": "Signal Hill",
       "count": 5
     },
     {
       "name": "San Rafael",
+      "count": 4
+    },
+    {
+      "name": "Benicia",
       "count": 4
     },
     {
@@ -86,14 +86,14 @@
       "payRange": ""
     },
     {
-      "title": "Composite Mechanic",
-      "count": 3,
-      "payRange": "$28.68 - $28.68/hr"
-    },
-    {
       "title": "Construction Project Manager",
       "count": 3,
       "payRange": ""
+    },
+    {
+      "title": "Electrician",
+      "count": 3,
+      "payRange": "$62,400 - $141,066/yr"
     }
   ],
   "topCompanies": [
@@ -106,24 +106,20 @@
       "count": 27
     },
     {
-      "name": "Curtin Maritime",
-      "count": 18
-    },
-    {
       "name": "Sealaska",
       "count": 17
     },
     {
+      "name": "Curtin Maritime",
+      "count": 17
+    },
+    {
       "name": "Bellingham Marine",
-      "count": 16
+      "count": 13
     },
     {
       "name": "Phillips 66",
-      "count": 14
-    },
-    {
-      "name": "Alstom",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Foss Maritime",
@@ -134,8 +130,12 @@
       "count": 10
     },
     {
-      "name": "Tradesmen Marine",
+      "name": "Manson Construction",
       "count": 9
+    },
+    {
+      "name": "Tradesmen Marine",
+      "count": 8
     }
   ]
 }
