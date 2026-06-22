@@ -1,19 +1,19 @@
 {
-  "totalJobs": 209,
-  "californiaJobs": 91,
-  "lastUpdated": "June 15, 2026 at 12:54 PM",
+  "totalJobs": 224,
+  "californiaJobs": 100,
+  "lastUpdated": "June 22, 2026 at 12:40 PM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 13
+      "count": 16
     },
     {
       "name": "Alameda",
-      "count": 10
+      "count": 11
     },
     {
-      "name": "Chula Vista",
-      "count": 7
+      "name": "Los Angeles",
+      "count": 10
     },
     {
       "name": "Oakland",
@@ -28,27 +28,27 @@
       "count": 5
     },
     {
-      "name": "Signal Hill",
-      "count": 5
-    },
-    {
       "name": "San Rafael",
       "count": 4
     },
     {
-      "name": "Benicia",
-      "count": 4
+      "name": "Compton",
+      "count": 3
     },
     {
       "name": "Wilmington",
+      "count": 3
+    },
+    {
+      "name": "Signal Hill",
       "count": 3
     }
   ],
   "topJobs": [
     {
       "title": "Project Manager",
-      "count": 8,
-      "payRange": "$40.00 - $110000.00/hr"
+      "count": 7,
+      "payRange": "$40.00 - $50.00/hr"
     },
     {
       "title": "Captain",
@@ -86,14 +86,14 @@
       "payRange": ""
     },
     {
+      "title": "Composite Mechanic",
+      "count": 3,
+      "payRange": "$28.68 - $28.68/hr"
+    },
+    {
       "title": "Construction Project Manager",
       "count": 3,
       "payRange": ""
-    },
-    {
-      "title": "Electrician",
-      "count": 3,
-      "payRange": "$62,400 - $141,066/yr"
     }
   ],
   "topCompanies": [
@@ -103,39 +103,39 @@
     },
     {
       "name": "SSA Marine",
-      "count": 27
-    },
-    {
-      "name": "Sealaska",
-      "count": 17
+      "count": 30
     },
     {
       "name": "Curtin Maritime",
-      "count": 17
+      "count": 19
+    },
+    {
+      "name": "Sealaska",
+      "count": 14
     },
     {
       "name": "Bellingham Marine",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Phillips 66",
+      "count": 14
+    },
+    {
+      "name": "Alstom",
       "count": 12
+    },
+    {
+      "name": "Manson Construction",
+      "count": 11
+    },
+    {
+      "name": "Bay Ship & Yacht",
+      "count": 11
     },
     {
       "name": "Foss Maritime",
       "count": 10
-    },
-    {
-      "name": "Bay Ship & Yacht",
-      "count": 10
-    },
-    {
-      "name": "Manson Construction",
-      "count": 9
-    },
-    {
-      "name": "Tradesmen Marine",
-      "count": 8
     }
   ]
 }
