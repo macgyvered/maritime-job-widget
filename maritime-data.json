@@ -1,46 +1,46 @@
 {
-  "totalJobs": 224,
-  "californiaJobs": 100,
-  "lastUpdated": "June 22, 2026 at 12:40 PM",
+  "totalJobs": 241,
+  "californiaJobs": 107,
+  "lastUpdated": "June 29, 2026 at 11:51 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 16
+      "count": 17
+    },
+    {
+      "name": "Los Angeles",
+      "count": 11
     },
     {
       "name": "Alameda",
       "count": 11
     },
     {
-      "name": "Los Angeles",
-      "count": 10
+      "name": "Dixon",
+      "count": 6
+    },
+    {
+      "name": "Chula Vista",
+      "count": 5
+    },
+    {
+      "name": "San Rafael",
+      "count": 5
     },
     {
       "name": "Oakland",
-      "count": 6
+      "count": 5
     },
     {
       "name": "San Francisco",
       "count": 5
     },
     {
-      "name": "Dixon",
-      "count": 5
-    },
-    {
-      "name": "San Rafael",
-      "count": 4
-    },
-    {
-      "name": "Compton",
-      "count": 3
-    },
-    {
       "name": "Wilmington",
       "count": 3
     },
     {
-      "name": "Signal Hill",
+      "name": "Vallejo",
       "count": 3
     }
   ],
@@ -98,36 +98,36 @@
   ],
   "topCompanies": [
     {
-      "name": "HME Construction",
-      "count": 32
+      "name": "SSA Marine",
+      "count": 35
     },
     {
-      "name": "SSA Marine",
-      "count": 30
+      "name": "HME Construction",
+      "count": 32
     },
     {
       "name": "Curtin Maritime",
       "count": 19
     },
     {
-      "name": "Sealaska",
-      "count": 14
+      "name": "Manson Construction",
+      "count": 15
     },
     {
       "name": "Bellingham Marine",
       "count": 14
     },
     {
-      "name": "Phillips 66",
-      "count": 14
+      "name": "Sealaska",
+      "count": 13
     },
     {
       "name": "Alstom",
-      "count": 12
+      "count": 13
     },
     {
-      "name": "Manson Construction",
-      "count": 11
+      "name": "Phillips 66",
+      "count": 12
     },
     {
       "name": "Bay Ship & Yacht",
