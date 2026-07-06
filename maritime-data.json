@@ -1,19 +1,23 @@
 {
-  "totalJobs": 241,
-  "californiaJobs": 107,
-  "lastUpdated": "June 29, 2026 at 11:51 AM",
+  "totalJobs": 228,
+  "californiaJobs": 105,
+  "lastUpdated": "July 06, 2026 at 11:19 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 17
+      "count": 16
     },
     {
       "name": "Los Angeles",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Alameda",
       "count": 11
+    },
+    {
+      "name": "Oakland",
+      "count": 6
     },
     {
       "name": "Dixon",
@@ -25,10 +29,6 @@
     },
     {
       "name": "San Rafael",
-      "count": 5
-    },
-    {
-      "name": "Oakland",
       "count": 5
     },
     {
@@ -47,8 +47,13 @@
   "topJobs": [
     {
       "title": "Project Manager",
-      "count": 7,
+      "count": 6,
       "payRange": "$40.00 - $50.00/hr"
+    },
+    {
+      "title": "Superintendent",
+      "count": 5,
+      "payRange": ""
     },
     {
       "title": "Captain",
@@ -64,6 +69,11 @@
       "title": "Deckhand",
       "count": 4,
       "payRange": ""
+    },
+    {
+      "title": "Dockhand",
+      "count": 4,
+      "payRange": "$12.00 - $16.00/hr"
     },
     {
       "title": "Operator",
@@ -84,16 +94,6 @@
       "title": "Site Safety & Health Officer",
       "count": 4,
       "payRange": ""
-    },
-    {
-      "title": "Composite Mechanic",
-      "count": 3,
-      "payRange": "$28.68 - $28.68/hr"
-    },
-    {
-      "title": "Construction Project Manager",
-      "count": 3,
-      "payRange": ""
     }
   ],
   "topCompanies": [
@@ -107,27 +107,23 @@
     },
     {
       "name": "Curtin Maritime",
-      "count": 19
+      "count": 17
+    },
+    {
+      "name": "Alstom",
+      "count": 15
     },
     {
       "name": "Manson Construction",
       "count": 15
     },
     {
-      "name": "Bellingham Marine",
-      "count": 14
-    },
-    {
       "name": "Sealaska",
       "count": 13
     },
     {
-      "name": "Alstom",
+      "name": "Bellingham Marine",
       "count": 13
-    },
-    {
-      "name": "Phillips 66",
-      "count": 12
     },
     {
       "name": "Bay Ship & Yacht",
@@ -136,6 +132,10 @@
     {
       "name": "Foss Maritime",
       "count": 10
+    },
+    {
+      "name": "Suntex Marinas",
+      "count": 8
     }
   ]
 }
