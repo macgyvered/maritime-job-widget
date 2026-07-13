@@ -1,26 +1,22 @@
 {
-  "totalJobs": 228,
-  "californiaJobs": 105,
-  "lastUpdated": "July 06, 2026 at 11:19 AM",
+  "totalJobs": 229,
+  "californiaJobs": 106,
+  "lastUpdated": "July 13, 2026 at 10:15 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 16
-    },
-    {
-      "name": "Los Angeles",
-      "count": 12
+      "count": 21
     },
     {
       "name": "Alameda",
       "count": 11
     },
     {
-      "name": "Oakland",
-      "count": 6
+      "name": "Los Angeles",
+      "count": 10
     },
     {
-      "name": "Dixon",
+      "name": "Oakland",
       "count": 6
     },
     {
@@ -36,11 +32,15 @@
       "count": 5
     },
     {
+      "name": "Dixon",
+      "count": 4
+    },
+    {
       "name": "Wilmington",
       "count": 3
     },
     {
-      "name": "Vallejo",
+      "name": "Richmond",
       "count": 3
     }
   ],
@@ -52,7 +52,7 @@
     },
     {
       "title": "Superintendent",
-      "count": 5,
+      "count": 6,
       "payRange": ""
     },
     {
@@ -69,11 +69,6 @@
       "title": "Deckhand",
       "count": 4,
       "payRange": ""
-    },
-    {
-      "title": "Dockhand",
-      "count": 4,
-      "payRange": "$12.00 - $16.00/hr"
     },
     {
       "title": "Operator",
@@ -94,24 +89,25 @@
       "title": "Site Safety & Health Officer",
       "count": 4,
       "payRange": ""
+    },
+    {
+      "title": "Composite Mechanic",
+      "count": 3,
+      "payRange": "$28.68 - $28.68/hr"
     }
   ],
   "topCompanies": [
-    {
-      "name": "SSA Marine",
-      "count": 35
-    },
     {
       "name": "HME Construction",
       "count": 32
     },
     {
-      "name": "Curtin Maritime",
-      "count": 17
+      "name": "SSA Marine",
+      "count": 29
     },
     {
-      "name": "Alstom",
-      "count": 15
+      "name": "Curtin Maritime",
+      "count": 21
     },
     {
       "name": "Manson Construction",
@@ -119,10 +115,14 @@
     },
     {
       "name": "Sealaska",
+      "count": 14
+    },
+    {
+      "name": "Alstom",
       "count": 13
     },
     {
-      "name": "Bellingham Marine",
+      "name": "Phillips 66",
       "count": 13
     },
     {
@@ -130,12 +130,12 @@
       "count": 11
     },
     {
-      "name": "Foss Maritime",
-      "count": 10
+      "name": "Bellingham Marine",
+      "count": 11
     },
     {
-      "name": "Suntex Marinas",
-      "count": 8
+      "name": "Foss Maritime",
+      "count": 10
     }
   ]
 }
