@@ -1,46 +1,46 @@
 {
-  "totalJobs": 229,
-  "californiaJobs": 106,
-  "lastUpdated": "July 13, 2026 at 10:15 AM",
+  "totalJobs": 232,
+  "californiaJobs": 109,
+  "lastUpdated": "July 20, 2026 at 09:47 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 21
+      "count": 19
     },
     {
       "name": "Alameda",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Los Angeles",
-      "count": 10
+      "count": 8
+    },
+    {
+      "name": "Chula Vista",
+      "count": 6
+    },
+    {
+      "name": "San Rafael",
+      "count": 6
     },
     {
       "name": "Oakland",
       "count": 6
     },
     {
-      "name": "Chula Vista",
-      "count": 5
-    },
-    {
-      "name": "San Rafael",
-      "count": 5
-    },
-    {
       "name": "San Francisco",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Dixon",
+      "count": 6
+    },
+    {
+      "name": "Vallejo",
       "count": 4
     },
     {
       "name": "Wilmington",
-      "count": 3
-    },
-    {
-      "name": "Richmond",
       "count": 3
     }
   ],
@@ -52,7 +52,7 @@
     },
     {
       "title": "Superintendent",
-      "count": 6,
+      "count": 5,
       "payRange": ""
     },
     {
@@ -103,35 +103,35 @@
     },
     {
       "name": "SSA Marine",
-      "count": 29
+      "count": 28
     },
     {
       "name": "Curtin Maritime",
-      "count": 21
+      "count": 20
     },
     {
       "name": "Manson Construction",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Sealaska",
       "count": 14
     },
     {
-      "name": "Alstom",
-      "count": 13
-    },
-    {
       "name": "Phillips 66",
-      "count": 13
-    },
-    {
-      "name": "Bay Ship & Yacht",
-      "count": 11
+      "count": 14
     },
     {
       "name": "Bellingham Marine",
-      "count": 11
+      "count": 14
+    },
+    {
+      "name": "Alstom",
+      "count": 12
+    },
+    {
+      "name": "Bay Ship & Yacht",
+      "count": 12
     },
     {
       "name": "Foss Maritime",
