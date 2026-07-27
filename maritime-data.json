@@ -1,35 +1,35 @@
 {
   "totalJobs": 232,
-  "californiaJobs": 109,
-  "lastUpdated": "July 20, 2026 at 09:47 AM",
+  "californiaJobs": 113,
+  "lastUpdated": "July 27, 2026 at 10:30 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 19
+      "count": 16
     },
     {
       "name": "Alameda",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Los Angeles",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Chula Vista",
-      "count": 6
-    },
-    {
-      "name": "San Rafael",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Oakland",
-      "count": 6
+      "count": 7
+    },
+    {
+      "name": "San Rafael",
+      "count": 7
     },
     {
       "name": "San Francisco",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Dixon",
@@ -51,9 +51,9 @@
       "payRange": "$40.00 - $50.00/hr"
     },
     {
-      "title": "Superintendent",
+      "title": "Electrician",
       "count": 5,
-      "payRange": ""
+      "payRange": "$54,080 - $146,702/yr"
     },
     {
       "title": "Captain",
@@ -91,9 +91,9 @@
       "payRange": ""
     },
     {
-      "title": "Composite Mechanic",
-      "count": 3,
-      "payRange": "$28.68 - $28.68/hr"
+      "title": "Superintendent",
+      "count": 4,
+      "payRange": ""
     }
   ],
   "topCompanies": [
@@ -103,22 +103,22 @@
     },
     {
       "name": "SSA Marine",
-      "count": 28
+      "count": 23
     },
     {
       "name": "Curtin Maritime",
-      "count": 20
+      "count": 18
+    },
+    {
+      "name": "Sealaska",
+      "count": 16
     },
     {
       "name": "Manson Construction",
       "count": 16
     },
     {
-      "name": "Sealaska",
-      "count": 14
-    },
-    {
-      "name": "Phillips 66",
+      "name": "Alstom",
       "count": 14
     },
     {
@@ -126,16 +126,16 @@
       "count": 14
     },
     {
-      "name": "Alstom",
-      "count": 12
-    },
-    {
       "name": "Bay Ship & Yacht",
+      "count": 13
+    },
+    {
+      "name": "Phillips 66",
       "count": 12
     },
     {
-      "name": "Foss Maritime",
-      "count": 10
+      "name": "Pasha Group",
+      "count": 11
     }
   ]
 }
