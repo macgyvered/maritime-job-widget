@@ -1,11 +1,11 @@
 {
-  "totalJobs": 232,
-  "californiaJobs": 113,
-  "lastUpdated": "July 27, 2026 at 10:30 AM",
+  "totalJobs": 241,
+  "californiaJobs": 123,
+  "lastUpdated": "August 03, 2026 at 10:30 AM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 16
+      "count": 20
     },
     {
       "name": "Alameda",
@@ -13,14 +13,14 @@
     },
     {
       "name": "Los Angeles",
-      "count": 9
-    },
-    {
-      "name": "Chula Vista",
-      "count": 7
+      "count": 10
     },
     {
       "name": "Oakland",
+      "count": 7
+    },
+    {
+      "name": "Chula Vista",
       "count": 7
     },
     {
@@ -33,15 +33,15 @@
     },
     {
       "name": "Dixon",
-      "count": 6
+      "count": 7
+    },
+    {
+      "name": "Wilmington",
+      "count": 4
     },
     {
       "name": "Vallejo",
       "count": 4
-    },
-    {
-      "name": "Wilmington",
-      "count": 3
     }
   ],
   "topJobs": [
@@ -49,11 +49,6 @@
       "title": "Project Manager",
       "count": 6,
       "payRange": "$40.00 - $50.00/hr"
-    },
-    {
-      "title": "Electrician",
-      "count": 5,
-      "payRange": "$54,080 - $146,702/yr"
     },
     {
       "title": "Captain",
@@ -69,6 +64,11 @@
       "title": "Deckhand",
       "count": 4,
       "payRange": ""
+    },
+    {
+      "title": "Electrician",
+      "count": 4,
+      "payRange": "$52,000 - $146,702/yr"
     },
     {
       "title": "Operator",
@@ -91,9 +91,9 @@
       "payRange": ""
     },
     {
-      "title": "Superintendent",
-      "count": 4,
-      "payRange": ""
+      "title": "Composite Mechanic",
+      "count": 3,
+      "payRange": "$28.68 - $28.68/hr"
     }
   ],
   "topCompanies": [
@@ -106,36 +106,36 @@
       "count": 23
     },
     {
+      "name": "Manson Construction",
+      "count": 19
+    },
+    {
       "name": "Curtin Maritime",
-      "count": 18
+      "count": 19
     },
     {
       "name": "Sealaska",
-      "count": 16
-    },
-    {
-      "name": "Manson Construction",
-      "count": 16
+      "count": 15
     },
     {
       "name": "Alstom",
       "count": 14
     },
     {
+      "name": "Pasha Group",
+      "count": 13
+    },
+    {
       "name": "Bellingham Marine",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Bay Ship & Yacht",
       "count": 13
     },
     {
-      "name": "Phillips 66",
-      "count": 12
-    },
-    {
-      "name": "Pasha Group",
-      "count": 11
+      "name": "Foss Maritime",
+      "count": 10
     }
   ]
 }
