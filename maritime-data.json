@@ -1,7 +1,7 @@
 {
-  "totalJobs": 238,
-  "californiaJobs": 112,
-  "lastUpdated": "August 10, 2026 at 08:18 AM",
+  "totalJobs": 223,
+  "californiaJobs": 111,
+  "lastUpdated": "August 17, 2026 at 07:41 AM",
   "topCities": [
     {
       "name": "Long Beach",
@@ -12,11 +12,11 @@
       "count": 13
     },
     {
-      "name": "San Rafael",
-      "count": 8
+      "name": "Los Angeles",
+      "count": 9
     },
     {
-      "name": "Los Angeles",
+      "name": "San Francisco",
       "count": 8
     },
     {
@@ -24,16 +24,12 @@
       "count": 7
     },
     {
-      "name": "San Francisco",
+      "name": "San Rafael",
       "count": 7
     },
     {
       "name": "Dixon",
       "count": 7
-    },
-    {
-      "name": "Oakland",
-      "count": 5
     },
     {
       "name": "Wilmington",
@@ -42,6 +38,10 @@
     {
       "name": "Vallejo",
       "count": 4
+    },
+    {
+      "name": "Signal Hill",
+      "count": 3
     }
   ],
   "topJobs": [
@@ -102,16 +102,12 @@
       "count": 32
     },
     {
-      "name": "SSA Marine",
+      "name": "Manson Construction",
       "count": 23
     },
     {
-      "name": "Manson Construction",
-      "count": 22
-    },
-    {
       "name": "Curtin Maritime",
-      "count": 19
+      "count": 18
     },
     {
       "name": "Sealaska",
@@ -119,22 +115,26 @@
     },
     {
       "name": "Bellingham Marine",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Bay Ship & Yacht",
       "count": 13
     },
     {
+      "name": "Alstom",
+      "count": 12
+    },
+    {
       "name": "Pasha Group",
       "count": 11
     },
     {
-      "name": "Alstom",
-      "count": 11
+      "name": "Foss Maritime",
+      "count": 10
     },
     {
-      "name": "Foss Maritime",
+      "name": "SSA Marine",
       "count": 10
     }
   ]
