@@ -1,35 +1,35 @@
 {
-  "totalJobs": 223,
-  "californiaJobs": 111,
-  "lastUpdated": "August 17, 2026 at 07:41 AM",
+  "totalJobs": 234,
+  "californiaJobs": 102,
+  "lastUpdated": "August 24, 2026 at 07:47 AM",
   "topCities": [
-    {
-      "name": "Long Beach",
-      "count": 15
-    },
     {
       "name": "Alameda",
       "count": 13
     },
     {
-      "name": "Los Angeles",
-      "count": 9
+      "name": "Long Beach",
+      "count": 12
+    },
+    {
+      "name": "Chula Vista",
+      "count": 8
     },
     {
       "name": "San Francisco",
       "count": 8
     },
     {
-      "name": "Chula Vista",
+      "name": "Dixon",
       "count": 7
     },
     {
       "name": "San Rafael",
-      "count": 7
+      "count": 6
     },
     {
-      "name": "Dixon",
-      "count": 7
+      "name": "Los Angeles",
+      "count": 6
     },
     {
       "name": "Wilmington",
@@ -47,11 +47,16 @@
   "topJobs": [
     {
       "title": "Project Manager",
-      "count": 6,
+      "count": 7,
       "payRange": "$40.00 - $50.00/hr"
     },
     {
       "title": "Deckhand",
+      "count": 5,
+      "payRange": ""
+    },
+    {
+      "title": "Operations Labor Manager",
       "count": 5,
       "payRange": ""
     },
@@ -89,11 +94,6 @@
       "title": "Site Safety & Health Officer",
       "count": 4,
       "payRange": ""
-    },
-    {
-      "title": "Construction Project Manager",
-      "count": 3,
-      "payRange": ""
     }
   ],
   "topCompanies": [
@@ -102,16 +102,20 @@
       "count": 32
     },
     {
+      "name": "SSA Marine",
+      "count": 26
+    },
+    {
       "name": "Manson Construction",
-      "count": 23
+      "count": 24
     },
     {
       "name": "Curtin Maritime",
-      "count": 18
+      "count": 19
     },
     {
       "name": "Sealaska",
-      "count": 15
+      "count": 14
     },
     {
       "name": "Bellingham Marine",
@@ -122,20 +126,16 @@
       "count": 13
     },
     {
-      "name": "Alstom",
-      "count": 12
-    },
-    {
-      "name": "Pasha Group",
-      "count": 11
-    },
-    {
       "name": "Foss Maritime",
       "count": 10
     },
     {
-      "name": "SSA Marine",
-      "count": 10
+      "name": "Phillips 66",
+      "count": 9
+    },
+    {
+      "name": "Alstom",
+      "count": 9
     }
   ]
 }
