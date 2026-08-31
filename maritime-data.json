@@ -1,50 +1,55 @@
 {
-  "totalJobs": 234,
-  "californiaJobs": 102,
-  "lastUpdated": "August 24, 2026 at 07:47 AM",
+  "totalJobs": 250,
+  "californiaJobs": 113,
+  "lastUpdated": "August 31, 2026 at 02:31 PM",
   "topCities": [
     {
-      "name": "Alameda",
+      "name": "Long Beach",
       "count": 13
     },
     {
-      "name": "Long Beach",
+      "name": "Alameda",
       "count": 12
     },
     {
+      "name": "Los Angeles",
+      "count": 9
+    },
+    {
       "name": "Chula Vista",
-      "count": 8
+      "count": 7
     },
     {
       "name": "San Francisco",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Dixon",
       "count": 7
     },
     {
-      "name": "San Rafael",
-      "count": 6
+      "name": "Richmond",
+      "count": 7
     },
     {
-      "name": "Los Angeles",
-      "count": 6
+      "name": "San Rafael",
+      "count": 5
+    },
+    {
+      "name": "Oakland",
+      "count": 5
     },
     {
       "name": "Wilmington",
       "count": 4
-    },
-    {
-      "name": "Vallejo",
-      "count": 4
-    },
-    {
-      "name": "Signal Hill",
-      "count": 3
     }
   ],
   "topJobs": [
+    {
+      "title": "Operations Labor Manager",
+      "count": 7,
+      "payRange": ""
+    },
     {
       "title": "Project Manager",
       "count": 7,
@@ -52,11 +57,6 @@
     },
     {
       "title": "Deckhand",
-      "count": 5,
-      "payRange": ""
-    },
-    {
-      "title": "Operations Labor Manager",
       "count": 5,
       "payRange": ""
     },
@@ -76,6 +76,16 @@
       "payRange": ""
     },
     {
+      "title": "Field Engineer",
+      "count": 4,
+      "payRange": ""
+    },
+    {
+      "title": "Internship - Intern - Field Engineering Summer 2027",
+      "count": 4,
+      "payRange": ""
+    },
+    {
       "title": "Operator",
       "count": 4,
       "payRange": ""
@@ -84,57 +94,47 @@
       "title": "Pilebuck",
       "count": 4,
       "payRange": ""
-    },
-    {
-      "title": "Quality Control Manager",
-      "count": 4,
-      "payRange": ""
-    },
-    {
-      "title": "Site Safety & Health Officer",
-      "count": 4,
-      "payRange": ""
     }
   ],
   "topCompanies": [
+    {
+      "name": "Manson Construction",
+      "count": 32
+    },
     {
       "name": "HME Construction",
       "count": 32
     },
     {
       "name": "SSA Marine",
-      "count": 26
-    },
-    {
-      "name": "Manson Construction",
-      "count": 24
+      "count": 30
     },
     {
       "name": "Curtin Maritime",
       "count": 19
     },
     {
+      "name": "Bellingham Marine",
+      "count": 15
+    },
+    {
       "name": "Sealaska",
       "count": 14
     },
     {
-      "name": "Bellingham Marine",
-      "count": 14
+      "name": "Bay Ship & Yacht",
+      "count": 12
     },
     {
-      "name": "Bay Ship & Yacht",
-      "count": 13
+      "name": "Alstom",
+      "count": 11
     },
     {
       "name": "Foss Maritime",
       "count": 10
     },
     {
-      "name": "Phillips 66",
-      "count": 9
-    },
-    {
-      "name": "Alstom",
+      "name": "Pasha Group",
       "count": 9
     }
   ]
