@@ -1,23 +1,19 @@
 {
   "totalJobs": 250,
-  "californiaJobs": 113,
-  "lastUpdated": "August 31, 2026 at 02:31 PM",
+  "californiaJobs": 115,
+  "lastUpdated": "September 07, 2026 at 01:05 PM",
   "topCities": [
     {
-      "name": "Long Beach",
-      "count": 13
+      "name": "Alameda",
+      "count": 16
     },
     {
-      "name": "Alameda",
-      "count": 12
+      "name": "Long Beach",
+      "count": 14
     },
     {
       "name": "Los Angeles",
-      "count": 9
-    },
-    {
-      "name": "Chula Vista",
-      "count": 7
+      "count": 10
     },
     {
       "name": "San Francisco",
@@ -28,11 +24,15 @@
       "count": 7
     },
     {
-      "name": "Richmond",
-      "count": 7
+      "name": "Chula Vista",
+      "count": 6
     },
     {
       "name": "San Rafael",
+      "count": 5
+    },
+    {
+      "name": "Richmond",
       "count": 5
     },
     {
@@ -46,14 +46,14 @@
   ],
   "topJobs": [
     {
-      "title": "Operations Labor Manager",
-      "count": 7,
-      "payRange": ""
-    },
-    {
       "title": "Project Manager",
       "count": 7,
       "payRange": "$40.00 - $50.00/hr"
+    },
+    {
+      "title": "Operations Labor Manager",
+      "count": 6,
+      "payRange": ""
     },
     {
       "title": "Deckhand",
@@ -115,27 +115,27 @@
     },
     {
       "name": "Bellingham Marine",
-      "count": 15
-    },
-    {
-      "name": "Sealaska",
-      "count": 14
+      "count": 16
     },
     {
       "name": "Bay Ship & Yacht",
-      "count": 12
+      "count": 16
+    },
+    {
+      "name": "Sealaska",
+      "count": 13
     },
     {
       "name": "Alstom",
       "count": 11
     },
     {
-      "name": "Foss Maritime",
-      "count": 10
+      "name": "Phillips 66",
+      "count": 11
     },
     {
       "name": "Pasha Group",
-      "count": 9
+      "count": 10
     }
   ]
 }
