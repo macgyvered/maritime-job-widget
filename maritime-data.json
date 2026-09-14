@@ -1,7 +1,7 @@
 {
-  "totalJobs": 250,
-  "californiaJobs": 115,
-  "lastUpdated": "September 07, 2026 at 01:05 PM",
+  "totalJobs": 246,
+  "californiaJobs": 105,
+  "lastUpdated": "September 14, 2026 at 01:26 PM",
   "topCities": [
     {
       "name": "Alameda",
@@ -9,18 +9,10 @@
     },
     {
       "name": "Long Beach",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Los Angeles",
-      "count": 10
-    },
-    {
-      "name": "San Francisco",
-      "count": 7
-    },
-    {
-      "name": "Dixon",
       "count": 7
     },
     {
@@ -28,7 +20,11 @@
       "count": 6
     },
     {
-      "name": "San Rafael",
+      "name": "Dixon",
+      "count": 6
+    },
+    {
+      "name": "San Francisco",
       "count": 5
     },
     {
@@ -36,11 +32,15 @@
       "count": 5
     },
     {
-      "name": "Oakland",
-      "count": 5
+      "name": "San Rafael",
+      "count": 4
     },
     {
       "name": "Wilmington",
+      "count": 4
+    },
+    {
+      "name": "Vallejo",
       "count": 4
     }
   ],
@@ -51,12 +51,12 @@
       "payRange": "$40.00 - $50.00/hr"
     },
     {
-      "title": "Operations Labor Manager",
-      "count": 6,
+      "title": "Deckhand",
+      "count": 5,
       "payRange": ""
     },
     {
-      "title": "Deckhand",
+      "title": "Operations Labor Manager",
       "count": 5,
       "payRange": ""
     },
@@ -86,55 +86,55 @@
       "payRange": ""
     },
     {
-      "title": "Operator",
+      "title": "Lift Truck Service Technician III",
       "count": 4,
-      "payRange": ""
+      "payRange": "$41.62 - $52.65/hr"
     },
     {
-      "title": "Pilebuck",
+      "title": "Operator",
       "count": 4,
       "payRange": ""
     }
   ],
   "topCompanies": [
     {
+      "name": "SSA Marine",
+      "count": 36
+    },
+    {
       "name": "Manson Construction",
-      "count": 32
+      "count": 33
     },
     {
       "name": "HME Construction",
       "count": 32
     },
     {
-      "name": "SSA Marine",
-      "count": 30
-    },
-    {
       "name": "Curtin Maritime",
-      "count": 19
-    },
-    {
-      "name": "Bellingham Marine",
-      "count": 16
+      "count": 20
     },
     {
       "name": "Bay Ship & Yacht",
       "count": 16
     },
     {
+      "name": "Bellingham Marine",
+      "count": 14
+    },
+    {
       "name": "Sealaska",
-      "count": 13
-    },
-    {
-      "name": "Alstom",
-      "count": 11
-    },
-    {
-      "name": "Phillips 66",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Pasha Group",
+      "count": 10
+    },
+    {
+      "name": "Total Industries",
+      "count": 10
+    },
+    {
+      "name": "Foss Maritime",
       "count": 10
     }
   ]
