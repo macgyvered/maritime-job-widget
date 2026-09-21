@@ -1,26 +1,26 @@
 {
-  "totalJobs": 246,
-  "californiaJobs": 105,
-  "lastUpdated": "September 14, 2026 at 01:26 PM",
+  "totalJobs": 245,
+  "californiaJobs": 109,
+  "lastUpdated": "September 21, 2026 at 01:25 PM",
   "topCities": [
     {
-      "name": "Alameda",
-      "count": 16
-    },
-    {
       "name": "Long Beach",
-      "count": 15
+      "count": 17
     },
     {
-      "name": "Los Angeles",
-      "count": 7
+      "name": "Alameda",
+      "count": 17
     },
     {
       "name": "Chula Vista",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Dixon",
+      "count": 6
+    },
+    {
+      "name": "Richmond",
       "count": 6
     },
     {
@@ -28,7 +28,7 @@
       "count": 5
     },
     {
-      "name": "Richmond",
+      "name": "Los Angeles",
       "count": 5
     },
     {
@@ -52,11 +52,6 @@
     },
     {
       "title": "Deckhand",
-      "count": 5,
-      "payRange": ""
-    },
-    {
-      "title": "Operations Labor Manager",
       "count": 5,
       "payRange": ""
     },
@@ -86,28 +81,33 @@
       "payRange": ""
     },
     {
-      "title": "Lift Truck Service Technician III",
+      "title": "Operator",
       "count": 4,
-      "payRange": "$41.62 - $52.65/hr"
+      "payRange": ""
     },
     {
-      "title": "Operator",
+      "title": "Pilebuck",
+      "count": 4,
+      "payRange": ""
+    },
+    {
+      "title": "Quality Control Manager",
       "count": 4,
       "payRange": ""
     }
   ],
   "topCompanies": [
     {
-      "name": "SSA Marine",
-      "count": 36
-    },
-    {
       "name": "Manson Construction",
-      "count": 33
+      "count": 34
     },
     {
       "name": "HME Construction",
       "count": 32
+    },
+    {
+      "name": "SSA Marine",
+      "count": 28
     },
     {
       "name": "Curtin Maritime",
@@ -123,18 +123,18 @@
     },
     {
       "name": "Sealaska",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Pasha Group",
+      "count": 13
+    },
+    {
+      "name": "Phillips 66",
       "count": 10
     },
     {
       "name": "Total Industries",
-      "count": 10
-    },
-    {
-      "name": "Foss Maritime",
       "count": 10
     }
   ]
