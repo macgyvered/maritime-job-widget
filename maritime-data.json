@@ -1,15 +1,15 @@
 {
-  "totalJobs": 245,
+  "totalJobs": 244,
   "californiaJobs": 109,
-  "lastUpdated": "September 21, 2026 at 01:25 PM",
+  "lastUpdated": "September 28, 2026 at 02:38 PM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Alameda",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Chula Vista",
@@ -20,11 +20,11 @@
       "count": 6
     },
     {
-      "name": "Richmond",
-      "count": 6
+      "name": "San Rafael",
+      "count": 5
     },
     {
-      "name": "San Francisco",
+      "name": "Richmond",
       "count": 5
     },
     {
@@ -32,7 +32,7 @@
       "count": 5
     },
     {
-      "name": "San Rafael",
+      "name": "San Francisco",
       "count": 4
     },
     {
@@ -99,7 +99,7 @@
   "topCompanies": [
     {
       "name": "Manson Construction",
-      "count": 34
+      "count": 35
     },
     {
       "name": "HME Construction",
@@ -107,11 +107,11 @@
     },
     {
       "name": "SSA Marine",
-      "count": 28
+      "count": 31
     },
     {
       "name": "Curtin Maritime",
-      "count": 20
+      "count": 21
     },
     {
       "name": "Bay Ship & Yacht",
@@ -122,15 +122,15 @@
       "count": 14
     },
     {
-      "name": "Sealaska",
-      "count": 13
-    },
-    {
       "name": "Pasha Group",
       "count": 13
     },
     {
       "name": "Phillips 66",
+      "count": 10
+    },
+    {
+      "name": "Sealaska",
       "count": 10
     },
     {
