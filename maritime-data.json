@@ -1,15 +1,15 @@
 {
-  "totalJobs": 244,
-  "californiaJobs": 109,
-  "lastUpdated": "September 28, 2026 at 02:38 PM",
+  "totalJobs": 251,
+  "californiaJobs": 112,
+  "lastUpdated": "October 05, 2026 at 03:21 PM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 18
+      "count": 20
     },
     {
       "name": "Alameda",
-      "count": 18
+      "count": 17
     },
     {
       "name": "Chula Vista",
@@ -17,30 +17,30 @@
     },
     {
       "name": "Dixon",
+      "count": 7
+    },
+    {
+      "name": "Los Angeles",
       "count": 6
+    },
+    {
+      "name": "San Francisco",
+      "count": 5
     },
     {
       "name": "San Rafael",
       "count": 5
     },
     {
-      "name": "Richmond",
+      "name": "Oakland",
       "count": 5
-    },
-    {
-      "name": "Los Angeles",
-      "count": 5
-    },
-    {
-      "name": "San Francisco",
-      "count": 4
     },
     {
       "name": "Wilmington",
       "count": 4
     },
     {
-      "name": "Vallejo",
+      "name": "Richmond",
       "count": 4
     }
   ],
@@ -51,13 +51,13 @@
       "payRange": "$40.00 - $50.00/hr"
     },
     {
-      "title": "Deckhand",
+      "title": "Captain",
       "count": 5,
-      "payRange": ""
+      "payRange": "$625 - $1080/day"
     },
     {
-      "title": "Captain",
-      "count": 4,
+      "title": "Deckhand",
+      "count": 5,
       "payRange": ""
     },
     {
@@ -99,7 +99,7 @@
   "topCompanies": [
     {
       "name": "Manson Construction",
-      "count": 35
+      "count": 34
     },
     {
       "name": "HME Construction",
@@ -107,34 +107,34 @@
     },
     {
       "name": "SSA Marine",
-      "count": 31
+      "count": 28
     },
     {
       "name": "Curtin Maritime",
-      "count": 21
-    },
-    {
-      "name": "Bay Ship & Yacht",
-      "count": 16
+      "count": 23
     },
     {
       "name": "Bellingham Marine",
-      "count": 14
+      "count": 16
+    },
+    {
+      "name": "Bay Ship & Yacht",
+      "count": 15
     },
     {
       "name": "Pasha Group",
       "count": 13
     },
     {
-      "name": "Phillips 66",
-      "count": 10
-    },
-    {
       "name": "Sealaska",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Total Industries",
+      "count": 11
+    },
+    {
+      "name": "Foss Maritime",
       "count": 10
     }
   ]
