@@ -1,26 +1,26 @@
 {
-  "totalJobs": 251,
-  "californiaJobs": 112,
-  "lastUpdated": "October 05, 2026 at 03:21 PM",
+  "totalJobs": 234,
+  "californiaJobs": 106,
+  "lastUpdated": "October 12, 2026 at 04:13 PM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 20
+      "count": 18
     },
     {
       "name": "Alameda",
-      "count": 17
+      "count": 11
     },
     {
       "name": "Chula Vista",
       "count": 7
     },
     {
-      "name": "Dixon",
-      "count": 7
+      "name": "Los Angeles",
+      "count": 6
     },
     {
-      "name": "Los Angeles",
+      "name": "Dixon",
       "count": 6
     },
     {
@@ -40,7 +40,7 @@
       "count": 4
     },
     {
-      "name": "Richmond",
+      "name": "Vallejo",
       "count": 4
     }
   ],
@@ -107,27 +107,19 @@
     },
     {
       "name": "SSA Marine",
-      "count": 28
+      "count": 25
     },
     {
       "name": "Curtin Maritime",
-      "count": 23
+      "count": 22
     },
     {
       "name": "Bellingham Marine",
       "count": 16
     },
     {
-      "name": "Bay Ship & Yacht",
-      "count": 15
-    },
-    {
-      "name": "Pasha Group",
-      "count": 13
-    },
-    {
       "name": "Sealaska",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Total Industries",
@@ -136,6 +128,14 @@
     {
       "name": "Foss Maritime",
       "count": 10
+    },
+    {
+      "name": "Bay Ship & Yacht",
+      "count": 10
+    },
+    {
+      "name": "Pasha Group",
+      "count": 9
     }
   ]
 }
