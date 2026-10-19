@@ -1,15 +1,19 @@
 {
-  "totalJobs": 234,
-  "californiaJobs": 106,
-  "lastUpdated": "October 12, 2026 at 04:13 PM",
+  "totalJobs": 251,
+  "californiaJobs": 115,
+  "lastUpdated": "October 19, 2026 at 02:07 PM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 18
+      "count": 16
+    },
+    {
+      "name": "Oakland",
+      "count": 12
     },
     {
       "name": "Alameda",
-      "count": 11
+      "count": 9
     },
     {
       "name": "Chula Vista",
@@ -17,10 +21,10 @@
     },
     {
       "name": "Los Angeles",
-      "count": 6
+      "count": 7
     },
     {
-      "name": "Dixon",
+      "name": "Richmond",
       "count": 6
     },
     {
@@ -32,22 +36,18 @@
       "count": 5
     },
     {
-      "name": "Oakland",
-      "count": 5
-    },
-    {
       "name": "Wilmington",
       "count": 4
     },
     {
-      "name": "Vallejo",
+      "name": "Pacheco",
       "count": 4
     }
   ],
   "topJobs": [
     {
       "title": "Project Manager",
-      "count": 7,
+      "count": 6,
       "payRange": "$40.00 - $50.00/hr"
     },
     {
@@ -61,6 +61,11 @@
       "payRange": ""
     },
     {
+      "title": "Tugboat Engineer",
+      "count": 5,
+      "payRange": "$450 - $875/day"
+    },
+    {
       "title": "Crane Operator",
       "count": 4,
       "payRange": "$71,573 - $156,000/yr"
@@ -71,6 +76,16 @@
       "payRange": ""
     },
     {
+      "title": "Dredge Engineer",
+      "count": 4,
+      "payRange": "$450 - $875/day"
+    },
+    {
+      "title": "Experienced Dredge Tugboat Captain",
+      "count": 4,
+      "payRange": "$750 - $110/day"
+    },
+    {
       "title": "Field Engineer",
       "count": 4,
       "payRange": ""
@@ -79,27 +94,16 @@
       "title": "Internship - Intern - Field Engineering Summer 2027",
       "count": 4,
       "payRange": ""
-    },
-    {
-      "title": "Operator",
-      "count": 4,
-      "payRange": ""
-    },
-    {
-      "title": "Pilebuck",
-      "count": 4,
-      "payRange": ""
-    },
-    {
-      "title": "Quality Control Manager",
-      "count": 4,
-      "payRange": ""
     }
   ],
   "topCompanies": [
     {
       "name": "Manson Construction",
-      "count": 34
+      "count": 32
+    },
+    {
+      "name": "Curtin Maritime",
+      "count": 32
     },
     {
       "name": "HME Construction",
@@ -107,30 +111,26 @@
     },
     {
       "name": "SSA Marine",
-      "count": 25
+      "count": 24
     },
     {
-      "name": "Curtin Maritime",
-      "count": 22
-    },
-    {
-      "name": "Bellingham Marine",
-      "count": 16
+      "name": "Total Industries",
+      "count": 13
     },
     {
       "name": "Sealaska",
       "count": 12
     },
     {
-      "name": "Total Industries",
+      "name": "Bellingham Marine",
+      "count": 12
+    },
+    {
+      "name": "Phillips 66",
       "count": 11
     },
     {
       "name": "Foss Maritime",
-      "count": 10
-    },
-    {
-      "name": "Bay Ship & Yacht",
       "count": 10
     },
     {
