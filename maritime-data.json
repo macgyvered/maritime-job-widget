@@ -1,27 +1,27 @@
 {
-  "totalJobs": 251,
-  "californiaJobs": 115,
-  "lastUpdated": "October 19, 2026 at 02:07 PM",
+  "totalJobs": 235,
+  "californiaJobs": 111,
+  "lastUpdated": "October 26, 2026 at 01:40 PM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 16
+      "count": 17
     },
     {
       "name": "Oakland",
       "count": 12
     },
     {
-      "name": "Alameda",
-      "count": 9
+      "name": "Los Angeles",
+      "count": 8
     },
     {
       "name": "Chula Vista",
-      "count": 7
+      "count": 6
     },
     {
-      "name": "Los Angeles",
-      "count": 7
+      "name": "San Rafael",
+      "count": 6
     },
     {
       "name": "Richmond",
@@ -32,7 +32,7 @@
       "count": 5
     },
     {
-      "name": "San Rafael",
+      "name": "Dixon",
       "count": 5
     },
     {
@@ -46,17 +46,17 @@
   ],
   "topJobs": [
     {
-      "title": "Project Manager",
-      "count": 6,
-      "payRange": "$40.00 - $50.00/hr"
-    },
-    {
       "title": "Captain",
       "count": 5,
       "payRange": "$625 - $1080/day"
     },
     {
       "title": "Deckhand",
+      "count": 5,
+      "payRange": ""
+    },
+    {
+      "title": "Project Manager",
       "count": 5,
       "payRange": ""
     },
@@ -110,24 +110,20 @@
       "count": 32
     },
     {
-      "name": "SSA Marine",
-      "count": 24
+      "name": "Bellingham Marine",
+      "count": 15
+    },
+    {
+      "name": "Sealaska",
+      "count": 13
     },
     {
       "name": "Total Industries",
       "count": 13
     },
     {
-      "name": "Sealaska",
-      "count": 12
-    },
-    {
-      "name": "Bellingham Marine",
-      "count": 12
-    },
-    {
-      "name": "Phillips 66",
-      "count": 11
+      "name": "SSA Marine",
+      "count": 10
     },
     {
       "name": "Foss Maritime",
@@ -135,6 +131,10 @@
     },
     {
       "name": "Pasha Group",
+      "count": 9
+    },
+    {
+      "name": "Golden Gate Bridge Highway & Transportation District",
       "count": 9
     }
   ]
