@@ -1,22 +1,22 @@
 {
-  "totalJobs": 235,
-  "californiaJobs": 111,
-  "lastUpdated": "October 26, 2026 at 01:40 PM",
+  "totalJobs": 260,
+  "californiaJobs": 114,
+  "lastUpdated": "November 02, 2026 at 04:39 PM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 17
+      "count": 19
     },
     {
       "name": "Oakland",
-      "count": 12
-    },
-    {
-      "name": "Los Angeles",
-      "count": 8
+      "count": 14
     },
     {
       "name": "Chula Vista",
+      "count": 9
+    },
+    {
+      "name": "San Francisco",
       "count": 6
     },
     {
@@ -28,23 +28,33 @@
       "count": 6
     },
     {
-      "name": "San Francisco",
-      "count": 5
-    },
-    {
-      "name": "Dixon",
-      "count": 5
+      "name": "Los Angeles",
+      "count": 6
     },
     {
       "name": "Wilmington",
       "count": 4
     },
     {
-      "name": "Pacheco",
+      "name": "San Diego",
+      "count": 4
+    },
+    {
+      "name": "Vallejo",
       "count": 4
     }
   ],
   "topJobs": [
+    {
+      "title": "Operations Labor Manager",
+      "count": 8,
+      "payRange": ""
+    },
+    {
+      "title": "Project Manager",
+      "count": 6,
+      "payRange": "$80000.00 - $120000.00/hr"
+    },
     {
       "title": "Captain",
       "count": 5,
@@ -56,14 +66,19 @@
       "payRange": ""
     },
     {
-      "title": "Project Manager",
+      "title": "Part-time Operations Labor Manager",
       "count": 5,
-      "payRange": ""
+      "payRange": "$25.00 - $55.00/hr"
     },
     {
       "title": "Tugboat Engineer",
       "count": 5,
       "payRange": "$450 - $875/day"
+    },
+    {
+      "title": "Construction Project Manager",
+      "count": 4,
+      "payRange": "$110,000 - $130,000/yr"
     },
     {
       "title": "Crane Operator",
@@ -79,50 +94,39 @@
       "title": "Dredge Engineer",
       "count": 4,
       "payRange": "$450 - $875/day"
-    },
-    {
-      "title": "Experienced Dredge Tugboat Captain",
-      "count": 4,
-      "payRange": "$750 - $110/day"
-    },
-    {
-      "title": "Field Engineer",
-      "count": 4,
-      "payRange": ""
-    },
-    {
-      "title": "Internship - Intern - Field Engineering Summer 2027",
-      "count": 4,
-      "payRange": ""
     }
   ],
   "topCompanies": [
     {
+      "name": "SSA Marine",
+      "count": 39
+    },
+    {
       "name": "Manson Construction",
-      "count": 32
+      "count": 33
     },
     {
       "name": "Curtin Maritime",
-      "count": 32
+      "count": 33
     },
     {
       "name": "HME Construction",
       "count": 32
     },
     {
-      "name": "Bellingham Marine",
-      "count": 15
-    },
-    {
       "name": "Sealaska",
       "count": 13
     },
     {
-      "name": "Total Industries",
+      "name": "Bellingham Marine",
       "count": 13
     },
     {
-      "name": "SSA Marine",
+      "name": "Total Industries",
+      "count": 11
+    },
+    {
+      "name": "Marine Group Boat Works",
       "count": 10
     },
     {
@@ -131,10 +135,6 @@
     },
     {
       "name": "Pasha Group",
-      "count": 9
-    },
-    {
-      "name": "Golden Gate Bridge Highway & Transportation District",
       "count": 9
     }
   ]
