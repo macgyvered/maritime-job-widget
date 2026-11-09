@@ -1,26 +1,26 @@
 {
-  "totalJobs": 260,
-  "californiaJobs": 114,
-  "lastUpdated": "November 02, 2026 at 04:39 PM",
+  "totalJobs": 261,
+  "californiaJobs": 110,
+  "lastUpdated": "November 09, 2026 at 04:56 PM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 19
+      "count": 21
     },
     {
       "name": "Oakland",
-      "count": 14
+      "count": 12
     },
     {
       "name": "Chula Vista",
-      "count": 9
+      "count": 10
+    },
+    {
+      "name": "Los Angeles",
+      "count": 8
     },
     {
       "name": "San Francisco",
-      "count": 6
-    },
-    {
-      "name": "San Rafael",
       "count": 6
     },
     {
@@ -28,27 +28,27 @@
       "count": 6
     },
     {
-      "name": "Los Angeles",
-      "count": 6
-    },
-    {
-      "name": "Wilmington",
-      "count": 4
-    },
-    {
-      "name": "San Diego",
-      "count": 4
+      "name": "San Rafael",
+      "count": 5
     },
     {
       "name": "Vallejo",
       "count": 4
+    },
+    {
+      "name": "Dixon",
+      "count": 4
+    },
+    {
+      "name": "Wilmington",
+      "count": 3
     }
   ],
   "topJobs": [
     {
       "title": "Operations Labor Manager",
-      "count": 8,
-      "payRange": ""
+      "count": 6,
+      "payRange": "$85,000 - $122,000/yr"
     },
     {
       "title": "Project Manager",
@@ -64,11 +64,6 @@
       "title": "Deckhand",
       "count": 5,
       "payRange": ""
-    },
-    {
-      "title": "Part-time Operations Labor Manager",
-      "count": 5,
-      "payRange": "$25.00 - $55.00/hr"
     },
     {
       "title": "Tugboat Engineer",
@@ -94,19 +89,24 @@
       "title": "Dredge Engineer",
       "count": 4,
       "payRange": "$450 - $875/day"
+    },
+    {
+      "title": "Experienced Dredge Tugboat Captain",
+      "count": 4,
+      "payRange": "$750 - $110/day"
     }
   ],
   "topCompanies": [
     {
+      "name": "Curtin Maritime",
+      "count": 37
+    },
+    {
       "name": "SSA Marine",
-      "count": 39
+      "count": 35
     },
     {
       "name": "Manson Construction",
-      "count": 33
-    },
-    {
-      "name": "Curtin Maritime",
       "count": 33
     },
     {
@@ -115,19 +115,19 @@
     },
     {
       "name": "Sealaska",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Bellingham Marine",
-      "count": 13
+      "count": 14
+    },
+    {
+      "name": "Marine Group Boat Works",
+      "count": 11
     },
     {
       "name": "Total Industries",
       "count": 11
-    },
-    {
-      "name": "Marine Group Boat Works",
-      "count": 10
     },
     {
       "name": "Foss Maritime",
@@ -135,7 +135,7 @@
     },
     {
       "name": "Pasha Group",
-      "count": 9
+      "count": 10
     }
   ]
 }
