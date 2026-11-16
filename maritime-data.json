@@ -1,55 +1,50 @@
 {
-  "totalJobs": 261,
-  "californiaJobs": 110,
-  "lastUpdated": "November 09, 2026 at 04:56 PM",
+  "totalJobs": 227,
+  "californiaJobs": 99,
+  "lastUpdated": "November 16, 2026 at 04:32 PM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 21
-    },
-    {
-      "name": "Oakland",
-      "count": 12
+      "count": 15
     },
     {
       "name": "Chula Vista",
-      "count": 10
+      "count": 9
+    },
+    {
+      "name": "Oakland",
+      "count": 9
     },
     {
       "name": "Los Angeles",
-      "count": 8
+      "count": 7
+    },
+    {
+      "name": "San Rafael",
+      "count": 6
     },
     {
       "name": "San Francisco",
       "count": 6
     },
     {
-      "name": "Richmond",
-      "count": 6
-    },
-    {
-      "name": "San Rafael",
-      "count": 5
+      "name": "Wilmington",
+      "count": 4
     },
     {
       "name": "Vallejo",
       "count": 4
     },
     {
-      "name": "Dixon",
-      "count": 4
+      "name": "Larkspur",
+      "count": 3
     },
     {
-      "name": "Wilmington",
+      "name": "Richmond",
       "count": 3
     }
   ],
   "topJobs": [
-    {
-      "title": "Operations Labor Manager",
-      "count": 6,
-      "payRange": "$85,000 - $122,000/yr"
-    },
     {
       "title": "Project Manager",
       "count": 6,
@@ -68,17 +63,12 @@
     {
       "title": "Tugboat Engineer",
       "count": 5,
-      "payRange": "$450 - $875/day"
-    },
-    {
-      "title": "Construction Project Manager",
-      "count": 4,
-      "payRange": "$110,000 - $130,000/yr"
+      "payRange": "$500 - $100/day"
     },
     {
       "title": "Crane Operator",
       "count": 4,
-      "payRange": "$71,573 - $156,000/yr"
+      "payRange": "$71,573 - $234,000/yr"
     },
     {
       "title": "Deck Engineer",
@@ -88,53 +78,63 @@
     {
       "title": "Dredge Engineer",
       "count": 4,
-      "payRange": "$450 - $875/day"
+      "payRange": "$500 - $100/day"
     },
     {
       "title": "Experienced Dredge Tugboat Captain",
       "count": 4,
-      "payRange": "$750 - $110/day"
+      "payRange": "$725 - $1320/day"
+    },
+    {
+      "title": "Operator",
+      "count": 4,
+      "payRange": ""
+    },
+    {
+      "title": "Pilebuck",
+      "count": 4,
+      "payRange": ""
     }
   ],
   "topCompanies": [
     {
       "name": "Curtin Maritime",
-      "count": 37
-    },
-    {
-      "name": "SSA Marine",
-      "count": 35
-    },
-    {
-      "name": "Manson Construction",
-      "count": 33
+      "count": 34
     },
     {
       "name": "HME Construction",
       "count": 32
     },
     {
+      "name": "Manson Construction",
+      "count": 27
+    },
+    {
+      "name": "Pasha Group",
+      "count": 13
+    },
+    {
       "name": "Sealaska",
-      "count": 14
-    },
-    {
-      "name": "Bellingham Marine",
-      "count": 14
-    },
-    {
-      "name": "Marine Group Boat Works",
-      "count": 11
+      "count": 13
     },
     {
       "name": "Total Industries",
-      "count": 11
+      "count": 12
+    },
+    {
+      "name": "Bellingham Marine",
+      "count": 12
     },
     {
       "name": "Foss Maritime",
       "count": 10
     },
     {
-      "name": "Pasha Group",
+      "name": "Marine Group Boat Works",
+      "count": 10
+    },
+    {
+      "name": "SSA Marine",
       "count": 10
     }
   ]
