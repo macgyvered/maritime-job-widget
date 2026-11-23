@@ -1,31 +1,31 @@
 {
-  "totalJobs": 227,
-  "californiaJobs": 99,
-  "lastUpdated": "November 16, 2026 at 04:32 PM",
+  "totalJobs": 252,
+  "californiaJobs": 105,
+  "lastUpdated": "November 23, 2026 at 06:49 PM",
   "topCities": [
     {
       "name": "Long Beach",
-      "count": 15
+      "count": 19
     },
     {
       "name": "Chula Vista",
-      "count": 9
-    },
-    {
-      "name": "Oakland",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Los Angeles",
       "count": 7
     },
     {
-      "name": "San Rafael",
-      "count": 6
+      "name": "Oakland",
+      "count": 7
     },
     {
       "name": "San Francisco",
       "count": 6
+    },
+    {
+      "name": "San Rafael",
+      "count": 5
     },
     {
       "name": "Wilmington",
@@ -46,6 +46,11 @@
   ],
   "topJobs": [
     {
+      "title": "Operations Labor Manager",
+      "count": 6,
+      "payRange": ""
+    },
+    {
       "title": "Project Manager",
       "count": 6,
       "payRange": "$80000.00 - $120000.00/hr"
@@ -59,11 +64,6 @@
       "title": "Deckhand",
       "count": 5,
       "payRange": ""
-    },
-    {
-      "title": "Tugboat Engineer",
-      "count": 5,
-      "payRange": "$500 - $100/day"
     },
     {
       "title": "Crane Operator",
@@ -98,20 +98,24 @@
   ],
   "topCompanies": [
     {
-      "name": "Curtin Maritime",
-      "count": 34
+      "name": "SSA Marine",
+      "count": 36
     },
     {
       "name": "HME Construction",
       "count": 32
     },
     {
+      "name": "Curtin Maritime",
+      "count": 31
+    },
+    {
       "name": "Manson Construction",
-      "count": 27
+      "count": 28
     },
     {
       "name": "Pasha Group",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Sealaska",
@@ -119,7 +123,7 @@
     },
     {
       "name": "Total Industries",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Bellingham Marine",
@@ -131,11 +135,7 @@
     },
     {
       "name": "Marine Group Boat Works",
-      "count": 10
-    },
-    {
-      "name": "SSA Marine",
-      "count": 10
+      "count": 9
     }
   ]
 }
